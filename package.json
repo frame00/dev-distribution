@@ -3,6 +3,8 @@
 	"private": true,
 	"version": "0.0.1",
 	"scripts": {
+		"build": "tsc -p ./",
+		"prebuild": "npm run lint",
 		"lint": "tslint --fix -p ./",
 		"format": "prettier --write '**/*.{json,md}'"
 	},
