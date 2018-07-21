@@ -138,12 +138,12 @@ export const createDistributions = (
 	count: number
 ) =>
 	targets.map(item => {
+		const downloads = findPackageDownloads(item.package, allData) || 0
+		const incremental = findPackageIncrement(item.package, allData) || 0
 		const val = {
-			value: calcDistributionValue(
-				findPackageDownloads(item.package, allData) || 0,
-				findPackageIncrement(item.package, allData) || 0,
-				count
-			)
+			value: calcDistributionValue(downloads, incremental, count),
+			downloads,
+			incremental
 		}
 		return { ...val, ...item }
 	})

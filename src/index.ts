@@ -19,10 +19,14 @@ export default async (
 	])
 	const [downloads, incremental] = results
 	const marged = mergePackageData(downloads, incremental, packages)
-	const totalIncrement = calcAllIncrementCount(marged)
-	const count = calcAllDownloadsCount(marged) + totalIncrement
+	const incrementalCount = calcAllIncrementCount(marged)
+	const downloadsCount = calcAllDownloadsCount(downloads)
+	const count = downloadsCount + incrementalCount
+
 	return {
 		count,
+		incrementalCount,
+		downloadsCount,
 		all: createDistributions(packages, marged, count)
 	}
 }

@@ -37,10 +37,14 @@ export interface DistributionTarget {
 
 export interface DistributionRate extends DistributionTarget {
 	value: number
+	downloads: number
+	incremental: number
 }
 
 export interface Distributions {
 	count: number
+	incrementalCount: number
+	downloadsCount: number
 	all: DistributionRate[]
 }
 
