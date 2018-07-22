@@ -25,7 +25,7 @@ const get = async <T>(url: string) =>
 		)
 	})
 
-export const getDownloadsCountNPM = async (
+const getDownloadsCountNPM = async (
 	start: string,
 	end: string,
 	packageName: string
@@ -41,7 +41,7 @@ export const getAllDownloadsCountNPM = async (
 ) =>
 	Promise.all(packages.map(async pkg => getDownloadsCountNPM(start, end, pkg)))
 
-export const getBalanceDev = async (
+const getBalanceDev = async (
 	address: string
 ): Promise<EtherscanResponseBodyExtended> => {
 	const res = await get<EtherscanResponseBody>(
@@ -51,7 +51,7 @@ export const getBalanceDev = async (
 	return { ...{ address, balance }, ...res }
 }
 
-export const getAllBalanceDev = async (addresses: string[]) =>
+const getAllBalanceDev = async (addresses: string[]) =>
 	Promise.all(addresses.map(async address => getBalanceDev(address)))
 
 const calcBalancePoint = (
@@ -106,24 +106,16 @@ export const calcAllDownloadsCount = (items: NPMCountResponseBody[]) =>
 export const calcAllPointCount = (items: PackagesAllData[]) =>
 	items.map(item => item.point).reduce((prev, current) => prev + current)
 
-export const calcDistributionRate = (itemCount: number, totalCount: number) =>
+const calcDistributionRate = (itemCount: number, totalCount: number) =>
 	itemCount / totalCount
 
-export const calcDistributionValue = (
+const calcDistributionValue = (
 	itemCount: number,
 	pointCount: number,
 	totalCount: number
 ) => totalCount * calcDistributionRate(itemCount + pointCount, totalCount)
 
-export const findPackageDownloads = (
-	name: string,
-	allData: PackagesAllData[]
-) => {
-	const pkg = allData.find(data => data.package === name)
-	return pkg ? pkg.downloads : pkg
-}
-
-export const findPackageDistoributionDetails = (
+const findPackageDistoributionDetails = (
 	name: string,
 	allData: PackagesAllData[]
 ) => allData.find(data => data.package === name)
