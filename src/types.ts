@@ -11,14 +11,14 @@ export interface EtherscanResponseBody {
 	result: number
 }
 
-export interface EtherscanResponseBodyAddressExtended
-	extends EtherscanResponseBody {
+export interface EtherscanResponseBodyExtended extends EtherscanResponseBody {
 	address: string
+	balance: number
 }
 
-export interface IncrementalToken {
-	address: string
-	increment: number
+export interface EtherscanResponseBodyExtendedPoint
+	extends EtherscanResponseBodyExtended {
+	point: number
 }
 
 export interface PackagesAllData {
@@ -27,23 +27,26 @@ export interface PackagesAllData {
 	end: string
 	package: string
 	address: string
-	increment: number
+	balance: number
+	point: number
 }
 
 export interface DistributionTarget {
 	package: string
 	address: string
+	date: string
 }
 
 export interface DistributionRate extends DistributionTarget {
 	value: number
 	downloads: number
-	incremental: number
+	balance: number
+	point: number
 }
 
 export interface Distributions {
 	count: number
-	incrementalCount: number
+	pointCount: number
 	downloadsCount: number
 	all: DistributionRate[]
 }

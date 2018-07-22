@@ -4,9 +4,9 @@ import {
 	Packages,
 	DistributionTarget,
 	EtherscanResponseBody,
-	EtherscanResponseBodyAddressExtended,
-	IncrementalToken,
-	PackagesAllData
+	EtherscanResponseBodyExtended,
+	PackagesAllData,
+	EtherscanResponseBodyExtendedPoint
 } from './types'
 
 const get = async <T>(url: string) =>
@@ -42,79 +42,78 @@ export const getAllDownloadsCountNPM = async (
 	Promise.all(packages.map(async pkg => getDownloadsCountNPM(start, end, pkg)))
 
 export const getBalanceDev = async (
-	date: string,
 	address: string
-): Promise<EtherscanResponseBodyAddressExtended> => {
+): Promise<EtherscanResponseBodyExtended> => {
 	const res = await get<EtherscanResponseBody>(
-		`https://welg1mzug8.execute-api.us-east-1.amazonaws.com/prototype/?date=${date}&address=${address}`
+		`https://welg1mzug8.execute-api.us-east-1.amazonaws.com/prototype/?address=${address}`
 	)
-	return { ...{ address }, ...res }
+	const balance = parseFloat(`${res.result}`)
+	return { ...{ address, balance }, ...res }
 }
 
-export const getAllBalanceDev = async (date: string, addresses: string[]) =>
-	Promise.all(addresses.map(async address => getBalanceDev(date, address)))
+export const getAllBalanceDev = async (addresses: string[]) =>
+	Promise.all(addresses.map(async address => getBalanceDev(address)))
 
-const findBalance = (findTarget: EtherscanResponseBodyAddressExtended[]) => (
-	address: string
-) => findTarget.find(data => data.address === address)
+const calcBalancePoint = (
+	balance: number,
+	endDate: string,
+	registerDate: string
+) =>
+	balance /
+	(new Date(endDate).getTime() - new Date(registerDate).getTime()) /
+	86400000
 
-const getBalance = (balance?: EtherscanResponseBodyAddressExtended) =>
-	balance ? (balance.result ? balance.result : 0) : 0
-
-const calcIncrementalBalance = (prev: number, current: number) =>
-	current - prev >= 0 ? current - prev : 0
-
-export const getAllIncrementalBalanceDev = async (
-	start: string,
+export const getAllBalancePointDev = async (
 	end: string,
-	addresses: string[]
+	targets: DistributionTarget[]
 ) => {
-	const results = await Promise.all([
-		getAllBalanceDev(start, addresses),
-		getAllBalanceDev(end, addresses)
-	])
-	const [prev, current] = results
-	const find = findBalance(prev)
-	return current.map(balance => {
+	const results = await getAllBalanceDev(targets.map(tgt => tgt.address))
+	const find = (address: string) =>
+		targets.find(tgt => tgt.address === address) || { date: end }
+	return results.map(result => {
+		const { address, balance } = result
 		return {
-			address: balance.address,
-			increment: calcIncrementalBalance(
-				getBalance(find(balance.address)),
-				balance.result
-			)
+			...result,
+			...{
+				address,
+				balance,
+				point: calcBalancePoint(balance, end, find(address).date)
+			}
 		}
 	})
 }
 
 export const mergePackageData = (
 	npms: NPMCountResponseBody[],
-	incremental: IncrementalToken[],
+	points: EtherscanResponseBodyExtendedPoint[],
 	packages: DistributionTarget[]
 ) =>
 	npms.map(npm => {
 		const address = packages.find(pkg => pkg.package === npm.package) || {
 			address: ''
 		}
-		const increment = incremental.find(
-			inc => inc.address === address.address
-		) || { address: '', increment: 0 }
-		return { ...npm, ...increment }
+		const balance = points.find(point => point.address === address.address) || {
+			address: '',
+			balance: 0,
+			point: 0
+		}
+		return { ...npm, ...balance }
 	})
 
 export const calcAllDownloadsCount = (items: NPMCountResponseBody[]) =>
 	items.map(item => item.downloads).reduce((prev, current) => prev + current)
 
-export const calcAllIncrementCount = (items: IncrementalToken[]) =>
-	items.map(item => item.increment).reduce((prev, current) => prev + current)
+export const calcAllPointCount = (items: PackagesAllData[]) =>
+	items.map(item => item.point).reduce((prev, current) => prev + current)
 
 export const calcDistributionRate = (itemCount: number, totalCount: number) =>
 	itemCount / totalCount
 
 export const calcDistributionValue = (
 	itemCount: number,
-	incrementCount: number,
+	pointCount: number,
 	totalCount: number
-) => totalCount * calcDistributionRate(itemCount + incrementCount, totalCount)
+) => totalCount * calcDistributionRate(itemCount + pointCount, totalCount)
 
 export const findPackageDownloads = (
 	name: string,
@@ -124,13 +123,10 @@ export const findPackageDownloads = (
 	return pkg ? pkg.downloads : pkg
 }
 
-export const findPackageIncrement = (
+export const findPackageDistoributionDetails = (
 	name: string,
 	allData: PackagesAllData[]
-) => {
-	const pkg = allData.find(data => data.package === name)
-	return pkg ? pkg.increment : pkg
-}
+) => allData.find(data => data.package === name)
 
 export const createDistributions = (
 	targets: DistributionTarget[],
@@ -138,12 +134,16 @@ export const createDistributions = (
 	count: number
 ) =>
 	targets.map(item => {
-		const downloads = findPackageDownloads(item.package, allData) || 0
-		const incremental = findPackageIncrement(item.package, allData) || 0
+		const detail = findPackageDistoributionDetails(
+			item.package,
+			allData
+		) as PackagesAllData
+		const { downloads, balance, point } = detail
 		const val = {
-			value: calcDistributionValue(downloads, incremental, count),
+			value: calcDistributionValue(downloads, point, count),
 			downloads,
-			incremental
+			balance,
+			point
 		}
 		return { ...val, ...item }
 	})

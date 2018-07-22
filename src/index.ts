@@ -2,9 +2,9 @@ import {
 	getAllDownloadsCountNPM,
 	calcAllDownloadsCount,
 	createDistributions,
-	getAllIncrementalBalanceDev,
-	calcAllIncrementCount,
-	mergePackageData
+	mergePackageData,
+	getAllBalancePointDev,
+	calcAllPointCount
 } from './libs'
 import { Distributions, DistributionTarget } from './types'
 
@@ -15,17 +15,17 @@ export default async (
 ): Promise<Distributions> => {
 	const results = await Promise.all([
 		getAllDownloadsCountNPM(start, end, packages.map(pkg => pkg.package)),
-		getAllIncrementalBalanceDev(start, end, packages.map(pkg => pkg.address))
+		getAllBalancePointDev(end, packages)
 	])
-	const [downloads, incremental] = results
-	const marged = mergePackageData(downloads, incremental, packages)
-	const incrementalCount = calcAllIncrementCount(marged)
+	const [downloads, points] = results
+	const marged = mergePackageData(downloads, points, packages)
+	const pointCount = calcAllPointCount(marged)
 	const downloadsCount = calcAllDownloadsCount(downloads)
-	const count = downloadsCount + incrementalCount
+	const count = downloadsCount + pointCount
 
 	return {
 		count,
-		incrementalCount,
+		pointCount,
 		downloadsCount,
 		all: createDistributions(packages, marged, count)
 	}
