@@ -4,9 +4,9 @@ import {
 	Packages,
 	DistributionTarget,
 	EtherscanResponseBody,
-	EtherscanResponseBodyExtended,
 	PackagesAllData,
-	EtherscanResponseBodyExtendedPoint
+	AddressBalance,
+	AddressBalanceExtendedPoint
 } from './types'
 
 const get = async <T>(url: string) =>
@@ -41,14 +41,12 @@ export const getAllDownloadsCountNPM = async (
 ) =>
 	Promise.all(packages.map(async pkg => getDownloadsCountNPM(start, end, pkg)))
 
-const getBalanceDev = async (
-	address: string
-): Promise<EtherscanResponseBodyExtended> => {
+const getBalanceDev = async (address: string): Promise<AddressBalance> => {
 	const res = await get<EtherscanResponseBody>(
 		`https://welg1mzug8.execute-api.us-east-1.amazonaws.com/prototype/?address=${address}`
 	)
 	const balance = parseFloat(`${res.result}`)
-	return { ...{ address, balance }, ...res }
+	return { address, balance }
 }
 
 const getAllBalanceDev = async (addresses: string[]) =>
@@ -85,19 +83,20 @@ export const getAllBalancePointDev = async (
 
 export const mergePackageData = (
 	npms: NPMCountResponseBody[],
-	points: EtherscanResponseBodyExtendedPoint[],
+	points: AddressBalanceExtendedPoint[],
 	packages: DistributionTarget[]
-) =>
+): PackagesAllData[] =>
 	npms.map(npm => {
-		const address = packages.find(pkg => pkg.package === npm.package) || {
+		const pkg = packages.find(pk => pk.package === npm.package) || {
 			address: ''
 		}
-		const balance = points.find(point => point.address === address.address) || {
+		const data = points.find(p => p.address === pkg.address) || {
 			address: '',
 			balance: 0,
 			point: 0
 		}
-		return { ...npm, ...balance }
+		const { address = '', balance = 0, point = 0 } = data
+		return { ...npm, ...{ address, balance, point } }
 	})
 
 export const calcAllDownloadsCount = (items: NPMCountResponseBody[]) =>

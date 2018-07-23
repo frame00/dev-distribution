@@ -11,25 +11,18 @@ export interface EtherscanResponseBody {
 	result: number
 }
 
-export interface EtherscanResponseBodyExtended extends EtherscanResponseBody {
+export interface AddressBalance {
 	address: string
 	balance: number
 }
 
-export interface EtherscanResponseBodyExtendedPoint
-	extends EtherscanResponseBodyExtended {
+export interface AddressBalanceExtendedPoint extends AddressBalance {
 	point: number
 }
 
-export interface PackagesAllData {
-	downloads: number
-	start: string
-	end: string
-	package: string
-	address: string
-	balance: number
-	point: number
-}
+export interface PackagesAllData
+	extends NPMCountResponseBody,
+		AddressBalanceExtendedPoint {}
 
 export interface DistributionTarget {
 	package: string
