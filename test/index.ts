@@ -28,6 +28,7 @@ const MOCK_EXPECTED = {
 	all: [
 		{
 			value: 3685898,
+			count: 3685898,
 			downloads: 3685898,
 			balance: 0,
 			point: 0,
@@ -37,6 +38,7 @@ const MOCK_EXPECTED = {
 		},
 		{
 			value: 19171074,
+			count: 19171074,
 			downloads: 19171074,
 			balance: 0,
 			point: 0,
@@ -46,6 +48,7 @@ const MOCK_EXPECTED = {
 		},
 		{
 			value: 8430946,
+			count: 8430946,
 			downloads: 8430946,
 			balance: 0,
 			point: 0,

@@ -32,9 +32,10 @@ export interface DistributionTarget {
 
 export interface DistributionRate extends DistributionTarget {
 	value: number
-	downloads: number
 	balance: number
+	count: number
 	point: number
+	downloads: number
 }
 
 export interface Distributions {
