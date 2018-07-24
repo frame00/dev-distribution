@@ -1,5 +1,6 @@
 import * as assert from 'assert'
 import app from '../src/index'
+import { Distributions } from '../src/types'
 
 const MOCK_START = '2018-01-20'
 const MOCK_END = '2018-02-20'
@@ -62,13 +63,21 @@ const MOCK_EXPECTED = {
 }
 
 describe('prototyping', () => {
+	let results: Distributions
 	it('all count', async () => {
-		const all = await app(
+		results = await app(
 			MOCK_START,
 			MOCK_END,
 			MOCK_TOTAL_DISTRIBUTION,
 			MOCK_PACKAGES
 		)
-		assert.deepStrictEqual(all, MOCK_EXPECTED)
+		assert.deepStrictEqual(results, MOCK_EXPECTED)
 	}).timeout(100000)
+
+	it('Sum of all values is the same as the value of "distributions"', () => {
+		const sumValues = results.all
+			.map(dist => dist.value)
+			.reduce((prev, current) => prev + current)
+		assert.strictEqual(sumValues, MOCK_TOTAL_DISTRIBUTION)
+	})
 })
