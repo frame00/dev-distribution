@@ -3,6 +3,7 @@ import app from '../src/index'
 
 const MOCK_START = '2018-01-20'
 const MOCK_END = '2018-02-20'
+const MOCK_TOTAL_DISTRIBUTION = 10000
 const MOCK_PACKAGES = [
 	{
 		package: 'npm',
@@ -22,12 +23,13 @@ const MOCK_PACKAGES = [
 ]
 
 const MOCK_EXPECTED = {
+	distributions: 10000,
 	count: 31287918,
 	pointCount: 0,
 	downloadsCount: 31287918,
 	all: [
 		{
-			value: 3685898,
+			value: 1178.0579327777577,
 			count: 3685898,
 			downloads: 3685898,
 			balance: 0,
@@ -37,7 +39,7 @@ const MOCK_EXPECTED = {
 			date: '2018-01-01'
 		},
 		{
-			value: 19171074,
+			value: 6127.30895037503,
 			count: 19171074,
 			downloads: 19171074,
 			balance: 0,
@@ -47,7 +49,7 @@ const MOCK_EXPECTED = {
 			date: '2018-01-01'
 		},
 		{
-			value: 8430946,
+			value: 2694.6331168472125,
 			count: 8430946,
 			downloads: 8430946,
 			balance: 0,
@@ -61,7 +63,12 @@ const MOCK_EXPECTED = {
 
 describe('prototyping', () => {
 	it('all count', async () => {
-		const all = await app(MOCK_START, MOCK_END, MOCK_PACKAGES)
+		const all = await app(
+			MOCK_START,
+			MOCK_END,
+			MOCK_TOTAL_DISTRIBUTION,
+			MOCK_PACKAGES
+		)
 		assert.deepStrictEqual(all, MOCK_EXPECTED)
 	}).timeout(100000)
 })

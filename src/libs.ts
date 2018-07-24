@@ -108,8 +108,11 @@ export const calcAllPointCount = (items: PackagesAllData[]) =>
 const calcDistributionRate = (itemCount: number, totalCount: number) =>
 	itemCount / totalCount
 
-const calcDistributionValue = (itemCount: number, totalCount: number) =>
-	totalCount * calcDistributionRate(itemCount, totalCount)
+const calcDistributionValue = (
+	itemCount: number,
+	totalCount: number,
+	totalDistribution: number
+) => totalDistribution * calcDistributionRate(itemCount, totalCount)
 
 const calcDistributionCount = (downloadsCount: number, pointCount: number) =>
 	downloadsCount + pointCount
@@ -122,7 +125,8 @@ const findPackageDistoributionDetails = (
 export const createDistributions = (
 	targets: DistributionTarget[],
 	allData: PackagesAllData[],
-	totalCount: number
+	totalCount: number,
+	totalDistribution: number
 ) =>
 	targets.map(item => {
 		const detail = findPackageDistoributionDetails(
@@ -132,7 +136,7 @@ export const createDistributions = (
 		const { downloads, balance, point } = detail
 		const count = calcDistributionCount(downloads, point)
 		const val = {
-			value: calcDistributionValue(count, totalCount),
+			value: calcDistributionValue(count, totalCount, totalDistribution),
 			count,
 			downloads,
 			balance,

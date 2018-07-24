@@ -11,6 +11,7 @@ import { Distributions, DistributionTarget } from './types'
 export default async (
 	start: string,
 	end: string,
+	distributions: number,
 	packages: DistributionTarget[]
 ): Promise<Distributions> => {
 	const results = await Promise.all([
@@ -24,9 +25,10 @@ export default async (
 	const count = downloadsCount + pointCount
 
 	return {
+		distributions,
 		count,
 		pointCount,
 		downloadsCount,
-		all: createDistributions(packages, marged, count)
+		all: createDistributions(packages, marged, count, distributions)
 	}
 }

@@ -39,6 +39,7 @@ export interface DistributionRate extends DistributionTarget {
 }
 
 export interface Distributions {
+	distributions: number
 	count: number
 	pointCount: number
 	downloadsCount: number
