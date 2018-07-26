@@ -8,6 +8,7 @@ import {
 	AddressBalance,
 	AddressBalanceExtendedPoint
 } from './types'
+import { all as ThrottleAll } from 'promise-parallel-throttle'
 
 const get = async <T>(url: string) =>
 	new Promise<T>((resolve, reject) => {
@@ -50,7 +51,9 @@ const getBalanceDev = async (address: string): Promise<AddressBalance> => {
 }
 
 const getAllBalanceDev = async (addresses: string[]) =>
-	Promise.all(addresses.map(async address => getBalanceDev(address)))
+	ThrottleAll(addresses.map(address => async () => getBalanceDev(address)), {
+		maxInProgress: 5
+	})
 
 const calcBalancePoint = (
 	balance: number,
