@@ -3,6 +3,8 @@
 	"private": true,
 	"version": "0.0.1",
 	"scripts": {
+		"calc": "node index.js",
+		"precalc": "npm run build",
 		"test": "mocha",
 		"pretest": "npm run build",
 		"build": "tsc -p ./",
