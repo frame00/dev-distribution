@@ -25,5 +25,10 @@ export const packages: DistributionTarget[] = [
 		package: 'vue-cli-plugin-i18n',
 		address: '0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0',
 		date: '2018-08-15'
+	},
+	{
+		package: 'nuxt-device-detect',
+		address: '0x4eff38306428991e24a21530491ac4096e790603',
+		date: '2018-08-17'
 	}
 ]
