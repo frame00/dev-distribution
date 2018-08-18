@@ -79,15 +79,14 @@ export const getAllBalancePointDev = async (
 ) => {
 	const results = await getAllBalanceDev(targets.map(tgt => tgt.address))
 	const find = (address: string) =>
-		targets.find(tgt => tgt.address === address) || { date: end }
-	return results.map(result => {
-		const { address, balance } = result
+		results.find(res => res.address === address) || { balance: 0 }
+	return targets.map(pkg => {
+		const { balance } = find(pkg.address)
 		return {
-			...result,
+			...pkg,
 			...{
-				address,
 				balance,
-				point: calcBalancePoint(balance, end, find(address).date)
+				point: calcBalancePoint(balance, end, pkg.date)
 			}
 		}
 	})
