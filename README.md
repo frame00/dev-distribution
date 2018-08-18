@@ -19,4 +19,3 @@ npm run calc 2018-07-20 2018-08-19 1000000
 ```
 
 `npm run calc <start date> <end date> <total distrobitions>`
-
