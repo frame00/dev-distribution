@@ -5,6 +5,7 @@
 	"scripts": {
 		"calc": "node index.js",
 		"precalc": "npm run build",
+		"postcalc": "npm run format",
 		"test": "mocha",
 		"pretest": "npm run build",
 		"build": "tsc -p ./",
