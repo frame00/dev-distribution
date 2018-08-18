@@ -71,9 +71,9 @@ const MOCK_EXPECTED = {
 	]
 }
 
-describe('prototyping', () => {
+describe('Distribution rate of Dev token', () => {
 	let results: Distributions
-	it('all count', async () => {
+	it('Match snapshot and response', async () => {
 		results = await app(
 			MOCK_START,
 			MOCK_END,
@@ -84,7 +84,7 @@ describe('prototyping', () => {
 		assert.deepStrictEqual(results, MOCK_EXPECTED)
 	}).timeout(100000)
 
-	it('Sum of all values is the same as the value of "distributions"', () => {
+	it('Match "Total of values" and "distributions"', () => {
 		const sumValues = results.details
 			.map(dist => dist.value)
 			.reduce((prev, current) => prev + current)
