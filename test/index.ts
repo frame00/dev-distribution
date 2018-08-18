@@ -23,12 +23,21 @@ const MOCK_PACKAGES = [
 	}
 ]
 
+const now = new Date()
 const MOCK_EXPECTED = {
 	distributions: 10000,
 	count: 31287918,
-	pointCount: 0,
-	downloadsCount: 31287918,
-	all: [
+	points: 0,
+	downloads: 31287918,
+	threshold: 1000000,
+	distributable: true,
+	term: { from: '2018-01-20', to: '2018-02-20' },
+	timestamp: {
+		start: now,
+		apiCallEnd: now,
+		end: now
+	},
+	details: [
 		{
 			value: 1178.0579327777577,
 			count: 3685898,
@@ -71,6 +80,7 @@ describe('prototyping', () => {
 			MOCK_TOTAL_DISTRIBUTION,
 			MOCK_PACKAGES
 		)
+		MOCK_EXPECTED.timestamp = results.timestamp
 		assert.deepStrictEqual(results, MOCK_EXPECTED)
 	}).timeout(100000)
 
