@@ -30,6 +30,8 @@ const get = async <T>(url: string) =>
 const integerToDecimals = (int: number) =>
 	int / Number(`1e+${contract.decimals}`)
 
+const toPositiveNumber = (num: number) => (num > 0 ? num : 0)
+
 const getDownloadsCountNPM = async (
 	start: string,
 	end: string,
@@ -65,9 +67,11 @@ const calcBalancePoint = (
 	endDate: string,
 	registerDate: string
 ) =>
-	balance /
-	(new Date(endDate).getTime() - new Date(registerDate).getTime()) /
-	86400000
+	toPositiveNumber(
+		balance /
+			(new Date(endDate).getTime() - new Date(registerDate).getTime()) /
+			86400000
+	)
 
 export const getAllBalancePointDev = async (
 	end: string,
