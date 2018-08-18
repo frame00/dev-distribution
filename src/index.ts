@@ -7,28 +7,45 @@ import {
 	calcAllPointCount
 } from './libs'
 import { Distributions, DistributionTarget } from './types'
+import { distribution } from '../config/distribution'
 
 export default async (
-	start: string,
-	end: string,
+	from: string,
+	to: string,
 	distributions: number,
 	packages: DistributionTarget[]
 ): Promise<Distributions> => {
+	const start = new Date()
 	const results = await Promise.all([
-		getAllDownloadsCountNPM(start, end, packages.map(pkg => pkg.package)),
-		getAllBalancePointDev(end, packages)
+		getAllDownloadsCountNPM(from, to, packages.map(pkg => pkg.package)),
+		getAllBalancePointDev(to, packages)
 	])
-	const [downloads, points] = results
-	const marged = mergePackageData(downloads, points, packages)
-	const pointCount = calcAllPointCount(marged)
-	const downloadsCount = calcAllDownloadsCount(downloads)
-	const count = downloadsCount + pointCount
+	const apiCallEnd = new Date()
+	const [downloadsRes, pointsRes] = results
+	const marged = mergePackageData(downloadsRes, pointsRes, packages)
+	const points = calcAllPointCount(marged)
+	const downloads = calcAllDownloadsCount(downloadsRes)
+	const count = downloads + points
+	const threshold = distribution.threshold.downloads
+	const distributable = threshold <= downloads
+	const end = new Date()
 
 	return {
 		distributions,
 		count,
-		pointCount,
-		downloadsCount,
-		all: createDistributions(packages, marged, count, distributions)
+		points,
+		downloads,
+		threshold,
+		distributable,
+		term: {
+			from,
+			to
+		},
+		timestamp: {
+			start,
+			apiCallEnd,
+			end
+		},
+		details: createDistributions(packages, marged, count, distributions)
 	}
 }

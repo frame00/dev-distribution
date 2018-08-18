@@ -75,7 +75,7 @@ describe('prototyping', () => {
 	}).timeout(100000)
 
 	it('Sum of all values is the same as the value of "distributions"', () => {
-		const sumValues = results.all
+		const sumValues = results.details
 			.map(dist => dist.value)
 			.reduce((prev, current) => prev + current)
 		assert.strictEqual(sumValues, MOCK_TOTAL_DISTRIBUTION)

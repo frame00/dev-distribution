@@ -41,9 +41,25 @@ export interface DistributionRate extends DistributionTarget {
 export interface Distributions {
 	distributions: number
 	count: number
-	pointCount: number
-	downloadsCount: number
-	all: DistributionRate[]
+	points: number
+	downloads: number
+	threshold: number
+	distributable: boolean
+	term: {
+		// tslint:disable-next-line:type-literal-delimiter
+		from: string
+		// tslint:disable-next-line:type-literal-delimiter
+		to: string
+	}
+	timestamp: {
+		// tslint:disable-next-line:type-literal-delimiter
+		start: Date
+		// tslint:disable-next-line:type-literal-delimiter
+		apiCallEnd: Date
+		// tslint:disable-next-line:type-literal-delimiter
+		end: Date
+	}
+	details: DistributionRate[]
 }
 
 export type Packages = string[]
