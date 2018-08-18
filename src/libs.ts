@@ -9,6 +9,7 @@ import {
 	AddressBalanceExtendedPoint
 } from './types'
 import { all as ThrottleAll } from 'promise-parallel-throttle'
+import { contract } from '../config/contract'
 
 const get = async <T>(url: string) =>
 	new Promise<T>((resolve, reject) => {
@@ -25,6 +26,9 @@ const get = async <T>(url: string) =>
 			}
 		)
 	})
+
+const integerToDecimals = (int: number) =>
+	int / Number(`1e+${contract.decimals}`)
 
 const getDownloadsCountNPM = async (
 	start: string,
@@ -44,9 +48,10 @@ export const getAllDownloadsCountNPM = async (
 
 const getBalanceDev = async (address: string): Promise<AddressBalance> => {
 	const res = await get<EtherscanResponseBody>(
+		// Source Code of The API: https://gist.github.com/aggre/5b83279ff99b6cecac557810eab73b89
 		`https://welg1mzug8.execute-api.us-east-1.amazonaws.com/prototype/?address=${address}`
 	)
-	const balance = parseFloat(`${res.result}`)
+	const balance = integerToDecimals(parseFloat(`${res.result}`))
 	return { address, balance }
 }
 
