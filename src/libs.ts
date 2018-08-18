@@ -69,8 +69,8 @@ const calcBalancePoint = (
 ) =>
 	toPositiveNumber(
 		balance /
-			(new Date(endDate).getTime() - new Date(registerDate).getTime()) /
-			86400000
+			((new Date(endDate).getTime() - new Date(registerDate).getTime()) /
+				86400000)
 	)
 
 const arrayWithoutDuplication = <T>(arr: T[]) => Array.from(new Set(arr))
