@@ -73,11 +73,15 @@ const calcBalancePoint = (
 			86400000
 	)
 
+const arrayWithoutDuplication = <T>(arr: T[]) => Array.from(new Set(arr))
+
 export const getAllBalancePointDev = async (
 	end: string,
 	targets: DistributionTarget[]
 ) => {
-	const results = await getAllBalanceDev(targets.map(tgt => tgt.address))
+	const results = await getAllBalanceDev(
+		arrayWithoutDuplication(targets.map(tgt => tgt.address))
+	)
 	const find = (address: string) =>
 		results.find(res => res.address === address) || { balance: 0 }
 	return targets.map(pkg => {
