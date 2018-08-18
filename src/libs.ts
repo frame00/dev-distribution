@@ -53,7 +53,7 @@ const getBalanceDev = async (address: string): Promise<AddressBalance> => {
 		// Source Code of The API: https://gist.github.com/aggre/5b83279ff99b6cecac557810eab73b89
 		`https://welg1mzug8.execute-api.us-east-1.amazonaws.com/prototype/?address=${address}`
 	)
-	const balance = integerToDecimals(parseFloat(`${res.result}`))
+	const balance = integerToDecimals(parseFloat(`${res.result}`)) || 0
 	return { address, balance }
 }
 
