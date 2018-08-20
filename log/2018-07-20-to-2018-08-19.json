@@ -1,0 +1,76 @@
+{
+	"distributions": 1000000,
+	"count": 303423.5,
+	"points": 1.5,
+	"downloads": 303422,
+	"threshold": 1000000,
+	"distributable": false,
+	"term": { "from": "2018-07-20", "to": "2018-08-19" },
+	"timestamp": {
+		"start": "2018-08-20T04:22:34.406Z",
+		"apiCallEnd": "2018-08-20T04:22:36.570Z",
+		"end": "2018-08-20T04:22:36.570Z"
+	},
+	"details": [
+		{
+			"value": 4017.487109600937,
+			"count": 1219,
+			"downloads": 1219,
+			"balance": 0,
+			"point": 0,
+			"package": "zengin-code",
+			"address": "0x623527a95416f2F451565976bB50e97050267e8D",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 819901.0623765134,
+			"count": 248777.25,
+			"downloads": 248777,
+			"balance": 1,
+			"point": 0.25,
+			"package": "vue-i18n",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 28202.331065326187,
+			"count": 8557.25,
+			"downloads": 8557,
+			"balance": 1,
+			"point": 0.25,
+			"package": "vue-i18n-extensions",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 121662.46187259721,
+			"count": 36915.25,
+			"downloads": 36915,
+			"balance": 1,
+			"point": 0.25,
+			"package": "@kazupon/vue-i18n-loader",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 19112.725283308646,
+			"count": 5799.25,
+			"downloads": 5799,
+			"balance": 1,
+			"point": 0.25,
+			"package": "vue-cli-plugin-i18n",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 7103.932292653667,
+			"count": 2155.5,
+			"downloads": 2155,
+			"balance": 1,
+			"point": 0.5,
+			"package": "nuxt-device-detect",
+			"address": "0x4eff38306428991e24a21530491ac4096e790603",
+			"date": "2018-08-17"
+		}
+	]
+}
