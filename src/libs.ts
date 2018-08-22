@@ -6,7 +6,7 @@ import {
 	EtherscanResponseBody,
 	PackagesAllData,
 	AddressBalance,
-	AddressBalanceExtendedPoint
+	AddressBalanceExtended
 } from './types'
 import { all as ThrottleAll } from 'promise-parallel-throttle'
 import { contract } from '../config/contract'
@@ -98,20 +98,19 @@ export const getAllBalancePointDev = async (
 
 export const mergePackageData = (
 	npms: NPMCountResponseBody[],
-	points: AddressBalanceExtendedPoint[],
+	points: AddressBalanceExtended[],
 	packages: DistributionTarget[]
 ): PackagesAllData[] =>
 	npms.map(npm => {
-		const pkg = packages.find(pk => pk.package === npm.package) || {
-			address: ''
+		const pkg = packages.find(pk => pk.package === npm.package)
+		if (!pkg) {
+			throw new Error(`Package not found: ${npm.package}`)
 		}
-		const data = points.find(p => p.address === pkg.address) || {
-			address: '',
-			balance: 0,
-			point: 0
+		const data = points.find(p => p.package === pkg.package)
+		if (!data) {
+			throw new Error(`Point not found: ${npm.package}`)
 		}
-		const { address = '', balance = 0, point = 0 } = data
-		return { ...npm, ...{ address, balance, point } }
+		return { ...npm, ...data }
 	})
 
 export const calcAllDownloadsCount = (items: NPMCountResponseBody[]) =>

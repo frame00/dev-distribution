@@ -10,18 +10,23 @@ const MOCK_TOTAL_DISTRIBUTION = 10000
 const MOCK_PACKAGES = [
 	{
 		package: 'npm',
-		address: '0xde0b295669a9fd93d5f28d9ec85e40f4cb697bae',
+		address: '0xE23fe51187A807d56189212591F5525127003bdf',
 		date: '2018-01-01'
+	},
+	{
+		package: 'n',
+		address: '0xE23fe51187A807d56189212591F5525127003bdf',
+		date: '2018-02-01'
 	},
 	{
 		package: 'express',
 		address: '0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a',
-		date: '2018-01-01'
+		date: '2018-03-01'
 	},
 	{
 		package: 'react',
 		address: '0x4e83362442b8d1bec281594cea3050c8eb01311c',
-		date: '2018-01-01'
+		date: '2018-04-01'
 	}
 ]
 
@@ -42,11 +47,15 @@ describe('Distribution rate of Dev token', () => {
 			assert.strictEqual(MOCK_TOTAL_DISTRIBUTION, results.distributions)
 		})
 
-		it('Value of "distributions" and the sum of "value" value of each item in "details" match', () => {
-			const sumValues = results.details
+		it('Value of "distributions" and the sum of "value" value of each item in "details" almost match(99.9999999999999%)', () => {
+			const sum = results.details
 				.map(dist => dist.value)
-				.reduce((prev, current) => prev + current)
-			assert.strictEqual(sumValues, MOCK_TOTAL_DISTRIBUTION)
+				.reduce((prev, current) => {
+					return prev + current
+				})
+			const l = sum > MOCK_TOTAL_DISTRIBUTION ? sum : MOCK_TOTAL_DISTRIBUTION
+			const s = sum < MOCK_TOTAL_DISTRIBUTION ? sum : MOCK_TOTAL_DISTRIBUTION
+			assert.ok(s / l >= 0.999999999999999)
 		})
 	})
 
@@ -128,7 +137,7 @@ describe('Distribution rate of Dev token', () => {
 			const { distributions, count: allCount } = results
 			for (const iterator of results.details) {
 				const { value, count } = iterator
-				assert.strictEqual(value, (distributions * count) / allCount)
+				assert.strictEqual(value, distributions * (count / allCount))
 			}
 		})
 

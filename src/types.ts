@@ -16,19 +16,21 @@ export interface AddressBalance {
 	balance: number
 }
 
-export interface AddressBalanceExtendedPoint extends AddressBalance {
-	point: number
-}
-
-export interface PackagesAllData
-	extends NPMCountResponseBody,
-		AddressBalanceExtendedPoint {}
-
 export interface DistributionTarget {
 	package: string
 	address: string
 	date: string
 }
+
+export interface AddressBalanceExtended
+	extends AddressBalance,
+		DistributionTarget {
+	point: number
+}
+
+export interface PackagesAllData
+	extends NPMCountResponseBody,
+		AddressBalanceExtended {}
 
 export interface DistributionRate extends DistributionTarget {
 	value: number
