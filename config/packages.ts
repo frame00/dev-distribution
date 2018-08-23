@@ -30,5 +30,20 @@ export const packages: DistributionTarget[] = [
 		package: 'nuxt-device-detect',
 		address: '0x4eff38306428991e24a21530491ac4096e790603',
 		date: '2018-08-17'
+	},
+	{
+		package: '@lacolaco/ngx-grid-layout',
+		address: '0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8',
+		date: '2018-08-23'
+	},
+	{
+		package: '@lacolaco/ngx-store',
+		address: '0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8',
+		date: '2018-08-23'
+	},
+	{
+		package: '@lacolaco/reactive-store',
+		address: '0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8',
+		date: '2018-08-23'
 	}
 ]
