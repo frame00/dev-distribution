@@ -45,5 +45,10 @@ export const packages: DistributionTarget[] = [
 		package: '@lacolaco/reactive-store',
 		address: '0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8',
 		date: '2018-08-23'
+	},
+	{
+		package: 'gulp-riot',
+		address: '0x012fCFF42a7002E47FaeFF5A384d08673C622872',
+		date: '2018-08-28'
 	}
 ]
