@@ -55,5 +55,50 @@ export const packages: DistributionTarget[] = [
 		package: '@mediba/stylelint-config',
 		address: '0xa05338dad0a93f659ef4d82cdfa312b992c8e6e0',
 		date: '2018-09-02'
+	},
+	{
+		package: 'vue-template-loader',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
+	},
+	{
+		package: 'vuex-connect',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
+	},
+	{
+		package: 'vue-range-slider',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
+	},
+	{
+		package: 'vue-cli-plugin-auto-routing',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
+	},
+	{
+		package: 'vue-thin-modal',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
+	},
+	{
+		package: 'vuex-class',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
+	},
+	{
+		package: 'sinai',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
+	},
+	{
+		package: '@birdseye/app',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
+	},
+	{
+		package: 'svelte-jest',
+		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
+		date: '2018-09-02'
 	}
 ]
