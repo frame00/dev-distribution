@@ -50,5 +50,10 @@ export const packages: DistributionTarget[] = [
 		package: 'gulp-riot',
 		address: '0x012fCFF42a7002E47FaeFF5A384d08673C622872',
 		date: '2018-08-28'
+	},
+	{
+		package: '@mediba/stylelint-config',
+		address: '0xa05338dad0a93f659ef4d82cdfa312b992c8e6e0',
+		date: '2018-09-02'
 	}
 ]
