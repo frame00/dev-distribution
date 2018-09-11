@@ -105,5 +105,45 @@ export const packages: DistributionTarget[] = [
 		package: 'chalk',
 		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
 		date: '2018-09-11'
+	},
+	{
+		package: 'supports-color',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
+	},
+	{
+		package: 'camelcase',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
+	},
+	{
+		package: 'strip-ansi',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
+	},
+	{
+		package: 'ansi-styles',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
+	},
+	{
+		package: 'ansi-regex',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
+	},
+	{
+		package: 'pify',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
+	},
+	{
+		package: 'find-up',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
+	},
+	{
+		package: 'globby',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
 	}
 ]
