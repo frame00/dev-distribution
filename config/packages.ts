@@ -100,5 +100,10 @@ export const packages: DistributionTarget[] = [
 		package: 'svelte-jest',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		date: '2018-09-02'
+	},
+	{
+		package: 'chalk',
+		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
+		date: '2018-09-11'
 	}
 ]
