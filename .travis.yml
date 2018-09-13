@@ -5,6 +5,8 @@ branches:
   only:
   - master
   - now
+before_install:
+  - npm install -g now
 deploy:
   - provider: script
     script: now --public --token $NOW_TOKEN && now alias --token $NOW_TOKEN
