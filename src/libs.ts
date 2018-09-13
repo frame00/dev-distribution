@@ -162,3 +162,4 @@ export const createDistributions = (
 export const getForTest = get
 export const getBalanceDevForTest = getBalanceDev
 export const getDownloadsCountNPMForTest = getDownloadsCountNPM
+export const toPositiveNumberForTest = toPositiveNumber

@@ -2,7 +2,11 @@ import * as assert from 'assert'
 import app from '../src/index'
 import { Distributions } from '../src/types'
 import { distribution } from '../config/distribution'
-import { getBalanceDevForTest, getDownloadsCountNPMForTest } from '../src/libs'
+import {
+	getBalanceDevForTest,
+	getDownloadsCountNPMForTest,
+	toPositiveNumberForTest
+} from '../src/libs'
 
 const MOCK_START = '2018-01-20'
 const MOCK_END = '2018-02-20'
@@ -65,11 +69,14 @@ describe('Distribution rate of Dev token', () => {
 			assert.strictEqual(sum, results.count)
 		})
 
-		it('Value of "count" and the sum of "count" value of each item in "details" match', () => {
+		it('Value of "count" and the sum of "count" value of each item in "details" almost match(99.9999999999999%)', () => {
 			const sum = results.details
 				.map(detail => detail.count)
 				.reduce((prev, current) => prev + current)
-			assert.strictEqual(sum, results.count)
+			const { count } = results
+			const l = sum > count ? sum : count
+			const s = sum < count ? sum : count
+			assert.ok(s / l >= 0.999999999999999)
 		})
 	})
 
@@ -177,7 +184,7 @@ describe('Distribution rate of Dev token', () => {
 				const { point, balance, date } = iterator
 				const days =
 					(new Date(MOCK_END).getTime() - new Date(date).getTime()) / 86400000
-				assert.strictEqual(point, balance / days)
+				assert.strictEqual(point, toPositiveNumberForTest(balance / days))
 			}
 		})
 	})
