@@ -159,5 +159,6 @@ export const createDistributions = (
 		return { ...val, ...item }
 	})
 
+export const getForTest = get
 export const getBalanceDevForTest = getBalanceDev
 export const getDownloadsCountNPMForTest = getDownloadsCountNPM
