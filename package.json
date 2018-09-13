@@ -1,6 +1,5 @@
 {
 	"name": "dev-distribution",
-	"private": true,
 	"version": "0.0.1",
 	"scripts": {
 		"calc": "node index.js",
