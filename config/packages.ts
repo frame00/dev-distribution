@@ -145,5 +145,10 @@ export const packages: DistributionTarget[] = [
 		package: 'globby',
 		address: '0xfb5c0e6400a95e4191d46196073d30a289abd15c',
 		date: '2018-09-11'
+	},
+	{
+		package: 'am-mocktimes',
+		address: '0xff47a035a34dDD18200e3850640E58A7400D83Fc',
+		date: '2018-09-12'
 	}
 ]
