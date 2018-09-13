@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- node
+branches:
+  only:
+  - master
+  - now
+deploy:
+  - provider: script
+    script: now --public --token $NOW_TOKEN && now alias --token $NOW_TOKEN
+    skip_cleanup: true
+global:
+	secure: eWw9qYz0+/0p2z+gfTopKO6ua/yJcDfOQ+u/9UVLxsGpk4Ew7ghBdJJTRJHC048gIDr+roDZWZY1Kg+xCHTrdZR7N2Y/4sGveUPUe+pWCXLwFOI+syRpGHdzJmzQ4297R7OpDWTopP6ismO+UM7RoDTvBAYBoTUPZOC+nhr2Epq/yUtJCM90vSotpjFnkgcwFMO6CjpKVOJSRKvQJm4VfZ3bg7CVemV5n59bwHE+kH+HhheoLQDUewCR0DwHY0Ist6RxlSq/8Ju4cZuQGHawjLVLERv6rBtNsPY3TbPGRKC1F6ZeQ8szlkZua4WuQv60gTi4h/cg3aPmjySkYb3G6BoDF2hXED7OiC2yfMuVjVyPz08Caf01okNaqbnoR/SYvvyvb2hENEdi4EFjPMclhtvTtgW9ufbaZRu1focFQ0s3pA6iWdaH0LvcLqMLAgSZu6oFCaWUHya1qXWD3UBXNhC/PnUGzYPJMnotKlfBSEY1gWOVVkrN+mmacq9KCS7ytoIIfmzDxkldD78sUs5zeZWILhp6eD/nWOgGD2p0t7WJr0MIoUriSZhzoBRCG6kFTUBoQbEA7r/eDxperxaFNrBeWB+qiiaepX4yka2xdx2EOJzdZg9ERa9tE006suJG7E3HeBCQegHeM072We/PopdOxniaw+D/emALZAq7Hts=
