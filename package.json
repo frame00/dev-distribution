@@ -1,6 +1,10 @@
 {
 	"name": "dev-distribution",
 	"version": "0.0.1",
+	"files": [
+		"**/*.js",
+		"**/*.d.ts"
+	],
 	"scripts": {
 		"calc": "node index.js",
 		"precalc": "npm run build",

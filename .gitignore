@@ -74,3 +74,4 @@ typings/
 
 # tsc build output
 *.js
+*.d.ts
