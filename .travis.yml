@@ -10,7 +10,7 @@ deploy:
   - provider: script
     script: now --public --token $NOW_TOKEN && now alias --token $NOW_TOKEN
     skip_cleanup: true
-		on:
+    on:
       branch: master
 env:
   global:
