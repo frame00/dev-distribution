@@ -1,3 +1,11 @@
 {
-	"alias": "dev-distribution"
+	"alias": "dev-distribution",
+	"files": [
+		"config",
+		"serve",
+		"src",
+		".prettierrc.json",
+		"tsconfig.json",
+		"tslint.json"
+	]
 }
