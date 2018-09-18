@@ -6,7 +6,9 @@ import {
 	EtherscanResponseBody,
 	PackagesAllData,
 	AddressBalance,
-	AddressBalanceExtended
+	AddressBalanceExtended,
+	DistributionRate,
+	DistributionTokens
 } from './types'
 import { all as ThrottleAll } from 'promise-parallel-throttle'
 import { contract } from '../config/contract'
@@ -158,6 +160,29 @@ export const createDistributions = (
 		}
 		return { ...val, ...item }
 	})
+
+export const createTokens = (
+	distributionRates: DistributionRate[]
+): DistributionTokens[] => {
+	const list = arrayWithoutDuplication(
+		distributionRates.map(dist => dist.address)
+	)
+	const sumValues = (address: string) => {
+		let value = 0
+		for (const dist of distributionRates) {
+			if (dist.address === address) {
+				value += dist.value
+			}
+		}
+		return value
+	}
+	return list.map(address => {
+		return {
+			address,
+			value: sumValues(address)
+		}
+	})
+}
 
 export const getForTest = get
 export const getBalanceDevForTest = getBalanceDev

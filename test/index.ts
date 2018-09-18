@@ -188,4 +188,20 @@ describe('Distribution rate of Dev token', () => {
 			}
 		})
 	})
+
+	describe('tokens', () => {
+		it('Value of "value" is the sum of the "value" of the package of the same "address"', () => {
+			for (const iterator of results.tokens) {
+				let sum = 0
+				const { address } = iterator
+				for (const pkg of results.details) {
+					if (pkg.address !== address) {
+						return
+					}
+					sum += pkg.value
+				}
+				assert.strictEqual(sum, iterator.value)
+			}
+		})
+	})
 })

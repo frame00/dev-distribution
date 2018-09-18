@@ -4,7 +4,8 @@ import {
 	createDistributions,
 	mergePackageData,
 	getAllBalancePointDev,
-	calcAllPointCount
+	calcAllPointCount,
+	createTokens
 } from './libs'
 import { Distributions, DistributionTarget } from './types'
 import { distribution } from '../config/distribution'
@@ -28,6 +29,8 @@ export default async (
 	const count = downloads + points
 	const threshold = distribution.threshold.downloads
 	const distributable = threshold <= downloads
+	const details = createDistributions(packages, marged, count, distributions)
+	const tokens = createTokens(details)
 	const end = new Date()
 
 	return {
@@ -46,6 +49,7 @@ export default async (
 			apiCallEnd,
 			end
 		},
-		details: createDistributions(packages, marged, count, distributions)
+		details,
+		tokens
 	}
 }

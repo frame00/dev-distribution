@@ -40,6 +40,11 @@ export interface DistributionRate extends DistributionTarget {
 	downloads: number
 }
 
+export interface DistributionTokens {
+	value: number
+	address: string
+}
+
 export interface Distributions {
 	distributions: number
 	count: number
@@ -62,6 +67,7 @@ export interface Distributions {
 		end: Date
 	}
 	details: DistributionRate[]
+	tokens: DistributionTokens[]
 }
 
 export type Packages = string[]
