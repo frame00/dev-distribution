@@ -1,5 +1,7 @@
 Calculate distribution rate of [Dev]('https://devtoken.rocks/')
 
+[![Build Status](https://travis-ci.org/frame00/dev-distribution.svg?branch=master)](https://travis-ci.org/frame00/dev-distribution)
+
 # Getting Started
 
 How to install:
