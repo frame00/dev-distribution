@@ -43,6 +43,7 @@ export interface DistributionRate extends DistributionTarget {
 export interface DistributionTokens {
 	value: number
 	address: string
+	uint256: string
 }
 
 export interface Distributions {

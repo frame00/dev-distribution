@@ -1,4 +1,5 @@
 import { get as _get } from 'request'
+import BigNumber from 'bignumber.js'
 import {
 	NPMCountResponseBody,
 	Packages,
@@ -31,6 +32,9 @@ const get = async <T>(url: string) =>
 
 const integerToDecimals = (int: number) =>
 	int / Number(`1e+${contract.decimals}`)
+
+const decimalsToInteger = (int: number) =>
+	int * Number(`1e+${contract.decimals}`)
 
 const toPositiveNumber = (num: number) => (num > 0 ? num : 0)
 
@@ -177,9 +181,12 @@ export const createTokens = (
 		return value
 	}
 	return list.map(address => {
+		const value = sumValues(address)
+		const uint256 = new BigNumber(decimalsToInteger(value)).toString(10)
 		return {
 			address,
-			value: sumValues(address)
+			value,
+			uint256
 		}
 	})
 }

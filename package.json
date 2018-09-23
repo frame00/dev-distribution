@@ -23,12 +23,14 @@
 	],
 	"license": "MIT",
 	"dependencies": {
+		"bignumber.js": "^7.2.1",
 		"micro": "^9.3.3",
 		"promise-parallel-throttle": "^3.1.0",
 		"request": "^2.87.0",
 		"typescript": "^3.0.1"
 	},
 	"devDependencies": {
+		"@types/bignumber.js": "^5.0.0",
 		"@types/micro": "^7.3.1",
 		"@types/mocha": "^5.2.4",
 		"@types/node": "^10.5.6",

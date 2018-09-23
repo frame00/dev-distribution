@@ -7,6 +7,7 @@ import {
 	getDownloadsCountNPMForTest,
 	toPositiveNumberForTest
 } from '../src/libs'
+import { contract } from '../config/contract'
 
 const MOCK_START = '2018-01-20'
 const MOCK_END = '2018-02-20'
@@ -201,6 +202,16 @@ describe('Distribution rate of Dev token', () => {
 					sum += pkg.value
 				}
 				assert.strictEqual(sum, iterator.value)
+			}
+		})
+
+		it('Value of "uint256" is "value" converted to uint256.', () => {
+			for (const iterator of results.tokens) {
+				const { uint256, value } = iterator
+				assert.strictEqual(
+					Number(uint256),
+					value * Number(`1e+${contract.decimals}`)
+				)
 			}
 		})
 	})
