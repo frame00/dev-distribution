@@ -3,9 +3,9 @@ import app from '../src/index'
 import { Distributions } from '../src/types'
 import { distribution } from '../config/distribution'
 import {
-	getBalanceDevForTest,
-	getDownloadsCountNPMForTest,
-	toPositiveNumberForTest
+	getBalanceDev,
+	getDownloadsCountNPM,
+	toPositiveNumber
 } from '../src/libs'
 import { contract } from '../config/contract'
 
@@ -160,11 +160,7 @@ describe('Distribution rate of Dev token', () => {
 			await Promise.all(
 				results.details.map(async detail => {
 					const { downloads, package: pkg } = detail
-					const res = await getDownloadsCountNPMForTest(
-						MOCK_START,
-						MOCK_END,
-						pkg
-					)
+					const res = await getDownloadsCountNPM(MOCK_START, MOCK_END, pkg)
 					return assert.strictEqual(downloads, res.downloads)
 				})
 			)
@@ -174,7 +170,7 @@ describe('Distribution rate of Dev token', () => {
 			await Promise.all(
 				results.details.map(async detail => {
 					const { balance, address } = detail
-					const tokens = await getBalanceDevForTest(address)
+					const tokens = await getBalanceDev(address)
 					return assert.strictEqual(balance, tokens.balance)
 				})
 			)
@@ -185,7 +181,7 @@ describe('Distribution rate of Dev token', () => {
 				const { point, balance, date } = iterator
 				const days =
 					(new Date(MOCK_END).getTime() - new Date(date).getTime()) / 86400000
-				assert.strictEqual(point, toPositiveNumberForTest(balance / days))
+				assert.strictEqual(point, toPositiveNumber(balance / days))
 			}
 		})
 	})

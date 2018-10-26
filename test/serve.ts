@@ -2,7 +2,7 @@ import * as assert from 'assert'
 // tslint:disable-next-line:no-require-imports
 import listen = require('test-listen')
 import { service } from '../serve/service'
-import { getForTest } from '../src/libs'
+import { get } from '../src/libs'
 import { packages } from '../config/packages'
 import { contract } from '../config/contract'
 import { distribution } from '../config/distribution'
@@ -15,17 +15,17 @@ describe('Serve', () => {
 	})
 
 	it('Get packages', async () => {
-		const body = await getForTest(`${url}/config/packages`)
+		const body = await get(`${url}/config/packages`)
 		assert.deepStrictEqual(body, packages)
 	})
 
 	it('Get contract', async () => {
-		const body = await getForTest(`${url}/config/contract`)
+		const body = await get(`${url}/config/contract`)
 		assert.deepStrictEqual(body, contract)
 	})
 
 	it('Get distribution', async () => {
-		const body = await getForTest(`${url}/config/distribution`)
+		const body = await get(`${url}/config/distribution`)
 		assert.deepStrictEqual(body, distribution)
 	})
 
