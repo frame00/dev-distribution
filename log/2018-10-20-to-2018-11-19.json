@@ -1,0 +1,363 @@
+{
+	"distributions": 83333,
+	"count": 434206832.1942798,
+	"points": 21727.19427978285,
+	"downloads": 434185105,
+	"threshold": 1000000,
+	"distributable": true,
+	"term": { "from": "2018-10-20", "to": "2018-11-19" },
+	"timestamp": {
+		"start": "2018-11-20T11:32:19.441Z",
+		"apiCallEnd": "2018-11-20T11:32:23.196Z",
+		"end": "2018-11-20T11:32:23.202Z"
+	},
+	"details": [
+		{
+			"value": 0.18386017875571803,
+			"count": 958.0039814262578,
+			"downloads": 958,
+			"balance": 0.3822169207527192,
+			"point": 0.003981426257840825,
+			"package": "zengin-code",
+			"address": "0x623527a95416f2F451565976bB50e97050267e8D",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 52.16623873406723,
+			"count": 271812.3344678563,
+			"downloads": 271811,
+			"balance": 128.10891420406057,
+			"point": 1.3344678562922976,
+			"package": "vue-i18n",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 2.271438066107108,
+			"count": 11835.334467856292,
+			"downloads": 11834,
+			"balance": 128.10891420406057,
+			"point": 1.3344678562922976,
+			"package": "vue-i18n-extensions",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 11.651914693839126,
+			"count": 60712.33446785629,
+			"downloads": 60711,
+			"balance": 128.10891420406057,
+			"point": 1.3344678562922976,
+			"package": "@kazupon/vue-i18n-loader",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 1.6118088300755398,
+			"count": 8398.334467856292,
+			"downloads": 8397,
+			"balance": 128.10891420406057,
+			"point": 1.3344678562922976,
+			"package": "vue-cli-plugin-i18n",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 0.9972211496868069,
+			"count": 5196.023620926237,
+			"downloads": 5196,
+			"balance": 2.220367066251817,
+			"point": 0.023620926236721455,
+			"package": "nuxt-device-detect",
+			"address": "0x4eff38306428991e24a21530491ac4096e790603",
+			"date": "2018-08-17"
+		},
+		{
+			"value": 0.006143698095014102,
+			"count": 32.01175630055446,
+			"downloads": 32,
+			"balance": 1.0345544487923872,
+			"point": 0.011756300554458947,
+			"package": "@lacolaco/ngx-grid-layout",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.004224497524657489,
+			"count": 22.01175630055446,
+			"downloads": 22,
+			"balance": 1.0345544487923872,
+			"point": 0.011756300554458947,
+			"package": "@lacolaco/ngx-store",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.004608337638728812,
+			"count": 24.01175630055446,
+			"downloads": 24,
+			"balance": 1.0345544487923872,
+			"point": 0.011756300554458947,
+			"package": "@lacolaco/reactive-store",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.7045428425540052,
+			"count": 3671.0224738162287,
+			"downloads": 3671,
+			"balance": 1.8653267469941797,
+			"point": 0.022473816228845537,
+			"package": "gulp-riot",
+			"address": "0x012fCFF42a7002E47FaeFF5A384d08673C622872",
+			"date": "2018-08-28"
+		},
+		{
+			"value": 0.09365950534542106,
+			"count": 488.0131175034919,
+			"downloads": 488,
+			"balance": 1.023165272370397,
+			"point": 0.013117503491928167,
+			"package": "@mediba/stylelint-config",
+			"address": "0xa05338dad0a93f659ef4d82cdfa312b992c8e6e0",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 1.2569418567306427,
+			"count": 6549.299099557302,
+			"downloads": 6549,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "vue-template-loader",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.16856321328140728,
+			"count": 878.2990995573015,
+			"downloads": 878,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "vuex-connect",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.8038186020694463,
+			"count": 4188.299099557302,
+			"downloads": 4188,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "vue-range-slider",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.23266451233131813,
+			"count": 1212.2990995573014,
+			"downloads": 1212,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "vue-cli-plugin-auto-routing",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.2526241982630269,
+			"count": 1316.2990995573014,
+			"downloads": 1316,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "vue-thin-modal",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 8.843541711350333,
+			"count": 46079.2990995573,
+			"downloads": 46079,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "vuex-class",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.014259487424735573,
+			"count": 74.29909955730145,
+			"downloads": 74,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "sinai",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.0008250834322392813,
+			"count": 4.299099557301453,
+			"downloads": 4,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "@birdseye/app",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 3.6068110350752796,
+			"count": 18793.2990995573,
+			"downloads": 18793,
+			"balance": 23.329765469513315,
+			"point": 0.29909955730145277,
+			"package": "svelte-jest",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 10739.952759415317,
+			"count": 55960554.22920018,
+			"downloads": 55958141,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "chalk",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 14675.262781408357,
+			"count": 76465498.22920017,
+			"downloads": 76463085,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "supports-color",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 10248.422846780257,
+			"count": 53399436.22920018,
+			"downloads": 53397023,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "camelcase",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 9328.7605497109,
+			"count": 48607533.22920018,
+			"downloads": 48605120,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "strip-ansi",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 8934.596671931515,
+			"count": 46553741.22920018,
+			"downloads": 46551328,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "ansi-styles",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 8664.16768524422,
+			"count": 45144670.22920018,
+			"downloads": 45142257,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "ansi-regex",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 7095.364967100408,
+			"count": 36970419.22920018,
+			"downloads": 36968006,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "pify",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 7353.378453378011,
+			"count": 38314799.22920018,
+			"downloads": 38312386,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "find-up",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 6208.213351932721,
+			"count": 32347913.229200173,
+			"downloads": 32345500,
+			"balance": 166512.81481199033,
+			"point": 2413.229200173773,
+			"package": "globby",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 0.004222864650306776,
+			"count": 22.00324820413174,
+			"downloads": 22,
+			"balance": 0.22087788095836045,
+			"point": 0.0032482041317405948,
+			"package": "am-mocktimes",
+			"address": "0xff47a035a34dDD18200e3850640E58A7400D83Fc",
+			"date": "2018-09-12"
+		}
+	],
+	"tokens": [
+		{
+			"address": "0x623527a95416f2F451565976bB50e97050267e8D",
+			"value": 0.18386017875571803,
+			"uint256": "183860178755718000"
+		},
+		{
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"value": 67.70140032408901,
+			"uint256": "67701400324089000000"
+		},
+		{
+			"address": "0x4eff38306428991e24a21530491ac4096e790603",
+			"value": 0.9972211496868069,
+			"uint256": "997221149686806900"
+		},
+		{
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"value": 0.014976533258400404,
+			"uint256": "14976533258400404"
+		},
+		{
+			"address": "0x012fCFF42a7002E47FaeFF5A384d08673C622872",
+			"value": 0.7045428425540052,
+			"uint256": "704542842554005200"
+		},
+		{
+			"address": "0xa05338dad0a93f659ef4d82cdfa312b992c8e6e0",
+			"value": 0.09365950534542106,
+			"uint256": "93659505345421060"
+		},
+		{
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"value": 15.180049699958431,
+			"uint256": "15180049699958432000"
+		},
+		{
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"value": 83248.12006690171,
+			"uint256": "83248120066901720000000"
+		},
+		{
+			"address": "0xff47a035a34dDD18200e3850640E58A7400D83Fc",
+			"value": 0.004222864650306776,
+			"uint256": "4222864650306776"
+		}
+	]
+}
