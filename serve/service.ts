@@ -1,12 +1,13 @@
-import micro, { createError } from 'micro'
+import { createError } from 'micro'
 import { parse } from 'url'
 import { packages } from '../config/packages'
 import { contract } from '../config/contract'
 import { distribution } from '../config/distribution'
+import { IncomingMessage } from 'http'
 
 const error = (status = 404, body = 'not found') => createError(status, body)
 
-export const service = micro(async req => {
+export const service = async (req: IncomingMessage) => {
 	const { url } = req
 	if (!url) {
 		throw error()
@@ -26,4 +27,4 @@ export const service = micro(async req => {
 		default:
 			throw error()
 	}
-})
+}

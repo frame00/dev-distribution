@@ -1,11 +1,6 @@
 {
+	"version": 2,
 	"alias": "dev-distribution",
-	"files": [
-		"config",
-		"serve",
-		"src",
-		".prettierrc.json",
-		"tsconfig.json",
-		"tslint.json"
-	]
+	"builds": [{ "src": "serve/index.js", "use": "@now/node" }],
+	"routes": [{ "src": ".*", "dest": "/serve/index.js" }]
 }
