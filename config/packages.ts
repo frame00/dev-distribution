@@ -150,5 +150,10 @@ export const packages: DistributionTarget[] = [
 		package: 'am-mocktimes',
 		address: '0xff47a035a34dDD18200e3850640E58A7400D83Fc',
 		date: '2018-09-12'
+	},
+	{
+		package: 'serverless-step-functions',
+		address: '0x9bEfA9767444D5552534faA8A24B18d3347AC3F4',
+		date: '2018-12-11'
 	}
 ]
