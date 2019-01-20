@@ -1,0 +1,378 @@
+{
+	"distributions": 83333,
+	"count": 574560846.2792128,
+	"points": 23064.27921288147,
+	"downloads": 574537782,
+	"threshold": 1000000,
+	"distributable": true,
+	"term": { "from": "2018-12-20", "to": "2019-01-19" },
+	"timestamp": {
+		"start": "2019-01-20T00:47:43.973Z",
+		"apiCallEnd": "2019-01-20T00:47:46.651Z",
+		"end": "2019-01-20T00:47:46.655Z"
+	},
+	"details": [
+		{
+			"value": 0.2474351038443937,
+			"count": 1706.005095988621,
+			"downloads": 1706,
+			"balance": 0.8000702134960695,
+			"point": 0.005095988620994074,
+			"package": "zengin-code",
+			"address": "0x623527a95416f2F451565976bB50e97050267e8D",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 55.52272295849907,
+			"count": 382815.72355203226,
+			"downloads": 382814,
+			"balance": 270.5976690614786,
+			"point": 1.7235520322387172,
+			"package": "vue-i18n",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 2.8453100613247417,
+			"count": 19617.72355203224,
+			"downloads": 19616,
+			"balance": 270.5976690614786,
+			"point": 1.7235520322387172,
+			"package": "vue-i18n-extensions",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 13.688475677891049,
+			"count": 94378.72355203224,
+			"downloads": 94377,
+			"balance": 270.5976690614786,
+			"point": 1.7235520322387172,
+			"package": "@kazupon/vue-i18n-loader",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 2.2851743540551883,
+			"count": 15755.72355203224,
+			"downloads": 15754,
+			"balance": 270.5976690614786,
+			"point": 1.7235520322387172,
+			"package": "vue-cli-plugin-i18n",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 1.2699543467798808,
+			"count": 8756.027554771978,
+			"downloads": 8756,
+			"balance": 4.270989656415858,
+			"point": 0.027554771976876502,
+			"package": "nuxt-device-detect",
+			"address": "0x4eff38306428991e24a21530491ac4096e790603",
+			"date": "2018-08-17"
+		},
+		{
+			"value": 0.003191883588732554,
+			"count": 22.00726406065913,
+			"downloads": 22,
+			"balance": 1.082345038209975,
+			"point": 0.007264060659127349,
+			"package": "@lacolaco/ngx-grid-layout",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.006962864528403292,
+			"count": 48.007264060659125,
+			"downloads": 48,
+			"balance": 1.082345038209975,
+			"point": 0.007264060659127349,
+			"package": "@lacolaco/ngx-store",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.004642260873221299,
+			"count": 32.007264060659125,
+			"downloads": 32,
+			"balance": 1.082345038209975,
+			"point": 0.007264060659127349,
+			"package": "@lacolaco/reactive-store",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.3338798645468176,
+			"count": 2302.0207784384156,
+			"downloads": 2302,
+			"balance": 2.992095131866375,
+			"point": 0.020778438415738718,
+			"package": "gulp-riot",
+			"address": "0x012fCFF42a7002E47FaeFF5A384d08673C622872",
+			"date": "2018-08-28"
+		},
+		{
+			"value": 0.07933715313848086,
+			"count": 547.0104502253497,
+			"downloads": 547,
+			"balance": 1.4525813236014131,
+			"point": 0.010450225349650455,
+			"package": "@mediba/stylelint-config",
+			"address": "0xa05338dad0a93f659ef4d82cdfa312b992c8e6e0",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 1.1071275739617485,
+			"count": 7633.376403519782,
+			"downloads": 7633,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "vue-template-loader",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.20774861985027757,
+			"count": 1432.3764035197814,
+			"downloads": 1432,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "vuex-connect",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.7246630840420664,
+			"count": 4996.376403519782,
+			"downloads": 4996,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "vue-range-slider",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.23733631645384795,
+			"count": 1636.3764035197814,
+			"downloads": 1636,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "vue-cli-plugin-auto-routing",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.34321385822152634,
+			"count": 2366.3764035197814,
+			"downloads": 2366,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "vue-thin-modal",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 7.625413165911066,
+			"count": 52575.37640351978,
+			"downloads": 52575,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "vuex-class",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.009046931875319483,
+			"count": 62.376403519781455,
+			"downloads": 62,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "sinai",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.002375196366671256,
+			"count": 16.37640351978146,
+			"downloads": 16,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "@birdseye/app",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 4.165103040577819,
+			"count": 28717.376403519782,
+			"downloads": 28717,
+			"balance": 52.320089249622704,
+			"point": 0.3764035197814583,
+			"package": "svelte-jest",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 10665.619354361279,
+			"count": 73536861.53545135,
+			"downloads": 73534300,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "chalk",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 14831.493792091125,
+			"count": 102259556.53545135,
+			"downloads": 102256995,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "supports-color",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 10564.245524137394,
+			"count": 72837913.53545135,
+			"downloads": 72835352,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "camelcase",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 9612.463568510975,
+			"count": 66275607.53545136,
+			"downloads": 66273046,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "strip-ansi",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 8427.65021977439,
+			"count": 58106606.53545136,
+			"downloads": 58104045,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "ansi-styles",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 9155.374701662964,
+			"count": 63124090.53545136,
+			"downloads": 63121529,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "ansi-regex",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 7125.130922364209,
+			"count": 49126051.53545136,
+			"downloads": 49123490,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "pify",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 7249.025340835264,
+			"count": 49980273.53545136,
+			"downloads": 49977712,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "find-up",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 5607.662665600498,
+			"count": 38663475.53545136,
+			"downloads": 38660914,
+			"balance": 332999.6086766842,
+			"point": 2561.535451359109,
+			"package": "globby",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 0.06555747637170467,
+			"count": 452.00291726034266,
+			"downloads": 452,
+			"balance": 0.3763265842011135,
+			"point": 0.0029172603426442906,
+			"package": "am-mocktimes",
+			"address": "0xff47a035a34dDD18200e3850640E58A7400D83Fc",
+			"date": "2018-09-12"
+		},
+		{
+			"value": 3.559238869206945,
+			"count": 24540.08972197582,
+			"downloads": 24540,
+			"balance": 3.4991570569448345,
+			"point": 0.08972197581909833,
+			"package": "serverless-step-functions",
+			"address": "0x9bEfA9767444D5552534faA8A24B18d3347AC3F4",
+			"date": "2018-12-11"
+		}
+	],
+	"tokens": [
+		{
+			"address": "0x623527a95416f2F451565976bB50e97050267e8D",
+			"value": 0.2474351038443937,
+			"uint256": "247435103844393700"
+		},
+		{
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"value": 74.34168305177005,
+			"uint256": "74341683051770050000"
+		},
+		{
+			"address": "0x4eff38306428991e24a21530491ac4096e790603",
+			"value": 1.2699543467798808,
+			"uint256": "1269954346779881000"
+		},
+		{
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"value": 0.014797008990357144,
+			"uint256": "14797008990357144"
+		},
+		{
+			"address": "0x012fCFF42a7002E47FaeFF5A384d08673C622872",
+			"value": 0.3338798645468176,
+			"uint256": "333879864546817600"
+		},
+		{
+			"address": "0xa05338dad0a93f659ef4d82cdfa312b992c8e6e0",
+			"value": 0.07933715313848086,
+			"uint256": "79337153138480860"
+		},
+		{
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"value": 14.422027787260342,
+			"uint256": "14422027787260342000"
+		},
+		{
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"value": 83238.66608933809,
+			"uint256": "83238666089338080000000"
+		},
+		{
+			"address": "0xff47a035a34dDD18200e3850640E58A7400D83Fc",
+			"value": 0.06555747637170467,
+			"uint256": "65557476371704670"
+		},
+		{
+			"address": "0x9bEfA9767444D5552534faA8A24B18d3347AC3F4",
+			"value": 3.559238869206945,
+			"uint256": "3559238869206945300"
+		}
+	]
+}
