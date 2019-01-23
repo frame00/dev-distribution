@@ -153,11 +153,10 @@ export const createDistributions = (
 	totalDistribution: number
 ) =>
 	targets.map(item => {
-		const detail = findPackageDistoributionDetails(
+		const { downloads, balance, point } = findPackageDistoributionDetails(
 			item.package,
 			allData
 		) as PackagesAllData
-		const { downloads, balance, point } = detail
 		const count = calcDistributionCount(downloads, point)
 		const val = {
 			value: calcDistributionValue(count, totalCount, totalDistribution),

@@ -17,12 +17,11 @@ export default async (
 	packages: DistributionTarget[]
 ): Promise<Distributions> => {
 	const start = new Date()
-	const results = await Promise.all([
+	const [downloadsRes, pointsRes] = await Promise.all([
 		getAllDownloadsCountNPM(from, to, packages.map(pkg => pkg.package)),
 		getAllBalancePointDev(to, packages)
 	])
 	const apiCallEnd = new Date()
-	const [downloadsRes, pointsRes] = results
 	const marged = mergePackageData(downloadsRes, pointsRes, packages)
 	const points = calcAllPointCount(marged)
 	const downloads = calcAllDownloadsCount(downloadsRes)
