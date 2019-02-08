@@ -155,5 +155,20 @@ export const packages: DistributionTarget[] = [
 		package: 'serverless-step-functions',
 		address: '0x9bEfA9767444D5552534faA8A24B18d3347AC3F4',
 		date: '2018-12-11'
+	},
+	{
+		package: '@sq-ui/ng-sq-ui',
+		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
+		date: '2019-02-08'
+	},
+	{
+		package: '@sq-ui/ng-datetime-picker',
+		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
+		date: '2019-02-08'
+	},
+	{
+		package: 'ts-data-layer-model',
+		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
+		date: '2019-02-08'
 	}
 ]
