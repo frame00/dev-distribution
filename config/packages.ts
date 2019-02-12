@@ -170,5 +170,10 @@ export const packages: DistributionTarget[] = [
 		package: 'ts-data-layer-model',
 		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
 		date: '2019-02-08'
+	},
+	{
+		package: 'react-semi-modal',
+		address: '0x1B0e6a1Ef10819Fe652E12b0760971da458a51B1',
+		date: '2019-02-12'
 	}
 ]
