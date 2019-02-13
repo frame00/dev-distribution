@@ -175,5 +175,10 @@ export const packages: DistributionTarget[] = [
 		package: 'react-semi-modal',
 		address: '0x1B0e6a1Ef10819Fe652E12b0760971da458a51B1',
 		date: '2019-02-12'
+	},
+	{
+		package: 'npm-hello-world-by-narita',
+		address: '0x27ef834D4A530C8ba24006c88e67524A5d30eD27',
+		date: '2019-02-13'
 	}
 ]
