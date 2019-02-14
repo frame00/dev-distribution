@@ -1,6 +1,6 @@
 import test from 'ava'
 import app from './index'
-import { Distributions } from './types'
+import { Distributions, DistributionTarget } from './types'
 import { distribution } from '../config/distribution'
 import { getBalanceDev, getDownloadsCountNPM, toPositiveNumber } from './libs'
 import { contract } from '../config/contract'
@@ -12,21 +12,25 @@ const MOCK_PACKAGES = [
 	{
 		package: 'npm',
 		address: '0xE23fe51187A807d56189212591F5525127003bdf',
+		user: 'user1',
 		date: '2018-01-01'
 	},
 	{
 		package: 'n',
 		address: '0xE23fe51187A807d56189212591F5525127003bdf',
+		user: 'user1',
 		date: '2018-02-01'
 	},
 	{
 		package: 'express',
 		address: '0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a',
+		user: 'user2',
 		date: '2018-03-01'
 	},
 	{
 		package: 'react',
 		address: '0x4e83362442b8d1bec281594cea3050c8eb01311c',
+		user: 'user3',
 		date: '2018-04-01'
 	}
 ]
@@ -162,6 +166,15 @@ test('"details[i].point" divides the value of "balance" by the number of days el
 		const days =
 			(new Date(MOCK_END).getTime() - new Date(date).getTime()) / 86400000
 		t.is(point, toPositiveNumber(balance / days))
+	}
+})
+
+test('"details[i].user" is the user name in specified on config json', t => {
+	for (const iterator of results.details) {
+		const { package: pkg, user } = iterator
+		const specifiedPackage = MOCK_PACKAGES.find(i => i.package === pkg)
+		const expected = (specifiedPackage as DistributionTarget).user
+		t.is(user, expected)
 	}
 })
 

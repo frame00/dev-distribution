@@ -20,6 +20,7 @@ export interface DistributionTarget {
 	package: string
 	address: string
 	date: string
+	user: string
 }
 
 export interface AddressBalanceExtended
