@@ -216,5 +216,35 @@ export const packages: DistributionTarget[] = [
 		address: '0x27ef834D4A530C8ba24006c88e67524A5d30eD27',
 		user: 'narita1980',
 		date: '2019-02-13'
+	},
+	{
+		package: 'hyperpower-plus',
+		address: '0x75D06aEf44C47eD72D26cb1038727299653a2307',
+		user: 'dongri',
+		date: '2019-02-15'
+	},
+	{
+		package: 'hubot-osaka',
+		address: '0x75D06aEf44C47eD72D26cb1038727299653a2307',
+		user: 'dongri',
+		date: '2019-02-15'
+	},
+	{
+		package: 'hubot-instagram',
+		address: '0x75D06aEf44C47eD72D26cb1038727299653a2307',
+		user: 'dongri',
+		date: '2019-02-15'
+	},
+	{
+		package: 'facebook-node',
+		address: '0x75D06aEf44C47eD72D26cb1038727299653a2307',
+		user: 'dongri',
+		date: '2019-02-15'
+	},
+	{
+		package: 'dongri',
+		address: '0x75D06aEf44C47eD72D26cb1038727299653a2307',
+		user: 'dongri',
+		date: '2019-02-15'
 	}
 ]
