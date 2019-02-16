@@ -246,5 +246,23 @@ export const packages: DistributionTarget[] = [
 		address: '0x75D06aEf44C47eD72D26cb1038727299653a2307',
 		user: 'dongri',
 		date: '2019-02-15'
+	},
+	{
+		package: '@sq-ui/ng-sq-common',
+		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
+		user: 'samuil4',
+		date: '2019-02-16'
+	},
+	{
+		package: '@sq-ui/ng-modal',
+		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
+		user: 'samuil4',
+		date: '2019-02-16'
+	},
+	{
+		package: '@sq-ui/ng-datatable',
+		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
+		user: 'samuil4',
+		date: '2019-02-16'
 	}
 ]
