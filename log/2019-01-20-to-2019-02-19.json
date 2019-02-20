@@ -1,0 +1,572 @@
+{
+	"distributions": 83333,
+	"count": 781596207.0358943,
+	"points": 23279.035894276552,
+	"downloads": 781572928,
+	"threshold": 1000000,
+	"distributable": true,
+	"term": { "from": "2019-01-20", "to": "2019-02-19" },
+	"timestamp": {
+		"start": "2019-02-20T08:59:15.898Z",
+		"apiCallEnd": "2019-02-20T08:59:19.700Z",
+		"end": "2019-02-20T08:59:19.714Z"
+	},
+	"details": [
+		{
+			"value": 0.20577524925282734,
+			"count": 1930.0055718367944,
+			"downloads": 1930,
+			"balance": 1.0475053173404631,
+			"point": 0.005571836794364166,
+			"package": "zengin-code",
+			"address": "0x623527a95416f2F451565976bB50e97050267e8D",
+			"user": "rosylilly",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 52.27100956256452,
+			"count": 490259.83478378784,
+			"downloads": 490258,
+			"balance": 344.9393521132487,
+			"point": 1.834783787836429,
+			"package": "vue-i18n",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"user": "kazupon",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 2.747980293024573,
+			"count": 25773.834783787835,
+			"downloads": 25772,
+			"balance": 344.9393521132487,
+			"point": 1.834783787836429,
+			"package": "vue-i18n-extensions",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"user": "kazupon",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 14.301640777440525,
+			"count": 134137.83478378784,
+			"downloads": 134136,
+			"balance": 344.9393521132487,
+			"point": 1.834783787836429,
+			"package": "@kazupon/vue-i18n-loader",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"user": "kazupon",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 2.7115165976490774,
+			"count": 25431.834783787835,
+			"downloads": 25430,
+			"balance": 344.9393521132487,
+			"point": 1.834783787836429,
+			"package": "vue-cli-plugin-i18n",
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"user": "kazupon",
+			"date": "2018-08-15"
+		},
+		{
+			"value": 1.3284758205641842,
+			"count": 12460.029790021523,
+			"downloads": 12460,
+			"balance": 5.540944003195739,
+			"point": 0.02979002152255774,
+			"package": "nuxt-device-detect",
+			"address": "0x4eff38306428991e24a21530491ac4096e790603",
+			"user": "devneko",
+			"date": "2018-08-17"
+		},
+		{
+			"value": 0.005544837468616567,
+			"count": 52.00609523359556,
+			"downloads": 52,
+			"balance": 1.0971420472003324,
+			"point": 0.006095233595557402,
+			"package": "@lacolaco/ngx-grid-layout",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"user": "lacolaco",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.005331599483964544,
+			"count": 50.00609523359556,
+			"downloads": 50,
+			"balance": 1.0971420472003324,
+			"point": 0.006095233595557402,
+			"package": "@lacolaco/ngx-store",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"user": "lacolaco",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.0021330297141841873,
+			"count": 20.00609523359556,
+			"downloads": 20,
+			"balance": 1.0971420472003324,
+			"point": 0.006095233595557402,
+			"package": "@lacolaco/reactive-store",
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"user": "lacolaco",
+			"date": "2018-08-23"
+		},
+		{
+			"value": 0.32039209829453774,
+			"count": 3005.019005571408,
+			"downloads": 3005,
+			"balance": 3.325974996413193,
+			"point": 0.01900557140807539,
+			"package": "gulp-riot",
+			"address": "0x012fCFF42a7002E47FaeFF5A384d08673C622872",
+			"user": "jigsaw",
+			"date": "2018-08-28"
+		},
+		{
+			"value": 0.07036949570931086,
+			"count": 660.0090112851573,
+			"downloads": 660,
+			"balance": 1.5319184767398941,
+			"point": 0.009011285157293495,
+			"package": "@mediba/stylelint-config",
+			"address": "0xa05338dad0a93f659ef4d82cdfa312b992c8e6e0",
+			"user": "uknmr",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 1.5096601710337914,
+			"count": 14159.392600688452,
+			"downloads": 14159,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "vue-template-loader",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.1882243801452002,
+			"count": 1765.3926006884521,
+			"downloads": 1765,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "vuex-connect",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.9168585737011654,
+			"count": 8599.392600688452,
+			"downloads": 8599,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "vue-range-slider",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.12435960374191911,
+			"count": 1166.3926006884521,
+			"downloads": 1166,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "vue-cli-plugin-auto-routing",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.21743798404252748,
+			"count": 2039.3926006884521,
+			"downloads": 2039,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "vue-thin-modal",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 8.297345079484685,
+			"count": 77822.39260068846,
+			"downloads": 77822,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "vuex-class",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.016887659477299154,
+			"count": 158.39260068845226,
+			"downloads": 158,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "sinai",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 0.004199999390503742,
+			"count": 39.392600688452255,
+			"downloads": 39,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "@birdseye/app",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 3.4719827247940405,
+			"count": 32564.392600688454,
+			"downloads": 32564,
+			"balance": 66.74211703688304,
+			"point": 0.3926006884522532,
+			"package": "svelte-jest",
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"user": "ktsn",
+			"date": "2018-09-02"
+		},
+		{
+			"value": 10481.440226230008,
+			"count": 98307440.33089916,
+			"downloads": 98304855,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "chalk",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 14783.857107646078,
+			"count": 138660634.33089918,
+			"downloads": 138658049,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "supports-color",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 11058.94839530339,
+			"count": 103724000.33089916,
+			"downloads": 103721415,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "camelcase",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 9539.874897481934,
+			"count": 89476318.33089916,
+			"downloads": 89473733,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "strip-ansi",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 7988.1923007145415,
+			"count": 74922789.33089916,
+			"downloads": 74920204,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "ansi-styles",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 9209.672573059512,
+			"count": 86379287.33089916,
+			"downloads": 86376702,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "ansi-regex",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 7140.307109859766,
+			"count": 66970311.33089917,
+			"downloads": 66967726,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "pify",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 7107.079087663378,
+			"count": 66658659.33089917,
+			"downloads": 66656074,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "find-up",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 5929.417515260521,
+			"count": 55613145.33089917,
+			"downloads": 55610560,
+			"balance": 416238.2747660223,
+			"point": 2585.3308991678405,
+			"package": "globby",
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"user": "sindresorhus",
+			"date": "2018-09-11"
+		},
+		{
+			"value": 0.023136615792452474,
+			"count": 217.0027617753786,
+			"downloads": 217,
+			"balance": 0.4418840605728181,
+			"point": 0.002761775378580113,
+			"package": "am-mocktimes",
+			"address": "0xff47a035a34dDD18200e3850640E58A7400D83Fc",
+			"user": "ampcpmgp",
+			"date": "2018-09-12"
+		},
+		{
+			"value": 5.301746763246997,
+			"count": 49726.100834227516,
+			"downloads": 49726,
+			"balance": 7.05839592615178,
+			"point": 0.100834227516454,
+			"package": "serverless-step-functions",
+			"address": "0x9bEfA9767444D5552534faA8A24B18d3347AC3F4",
+			"user": "horike37",
+			"date": "2018-12-11"
+		},
+		{
+			"value": 0.0188715616417041,
+			"count": 177,
+			"downloads": 177,
+			"balance": 0,
+			"point": 0,
+			"package": "@sq-ui/ng-sq-ui",
+			"address": "0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194",
+			"user": "samuil4",
+			"date": "2019-02-08"
+		},
+		{
+			"value": 0.022603226373114516,
+			"count": 212,
+			"downloads": 212,
+			"balance": 0,
+			"point": 0,
+			"package": "@sq-ui/ng-datetime-picker",
+			"address": "0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194",
+			"user": "samuil4",
+			"date": "2019-02-08"
+		},
+		{
+			"value": 0.001812522869542202,
+			"count": 17,
+			"downloads": 17,
+			"balance": 0,
+			"point": 0,
+			"package": "ts-data-layer-model",
+			"address": "0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194",
+			"user": "samuil4",
+			"date": "2019-02-08"
+		},
+		{
+			"value": 0.010981756209579223,
+			"count": 103,
+			"downloads": 103,
+			"balance": 0,
+			"point": 0,
+			"package": "react-semi-modal",
+			"address": "0x1B0e6a1Ef10819Fe652E12b0760971da458a51B1",
+			"user": "moriyuu",
+			"date": "2019-02-12"
+		},
+		{
+			"value": 0.0034118077544323796,
+			"count": 32,
+			"downloads": 32,
+			"balance": 0,
+			"point": 0,
+			"package": "npm-hello-world-by-narita",
+			"address": "0x27ef834D4A530C8ba24006c88e67524A5d30eD27",
+			"user": "narita1980",
+			"date": "2019-02-13"
+		},
+		{
+			"value": 0.002345617831172261,
+			"count": 22,
+			"downloads": 22,
+			"balance": 0,
+			"point": 0,
+			"package": "hyperpower-plus",
+			"address": "0x75D06aEf44C47eD72D26cb1038727299653a2307",
+			"user": "dongri",
+			"date": "2019-02-15"
+		},
+		{
+			"value": 0.000746332946282083,
+			"count": 7,
+			"downloads": 7,
+			"balance": 0,
+			"point": 0,
+			"package": "hubot-osaka",
+			"address": "0x75D06aEf44C47eD72D26cb1038727299653a2307",
+			"user": "dongri",
+			"date": "2019-02-15"
+		},
+		{
+			"value": 0.0019191418618682136,
+			"count": 18,
+			"downloads": 18,
+			"balance": 0,
+			"point": 0,
+			"package": "hubot-instagram",
+			"address": "0x75D06aEf44C47eD72D26cb1038727299653a2307",
+			"user": "dongri",
+			"date": "2019-02-15"
+		},
+		{
+			"value": 0.035930600413866004,
+			"count": 337,
+			"downloads": 337,
+			"balance": 0,
+			"point": 0,
+			"package": "facebook-node",
+			"address": "0x75D06aEf44C47eD72D26cb1038727299653a2307",
+			"user": "dongri",
+			"date": "2019-02-15"
+		},
+		{
+			"value": 0.0009595709309341068,
+			"count": 9,
+			"downloads": 9,
+			"balance": 0,
+			"point": 0,
+			"package": "dongri",
+			"address": "0x75D06aEf44C47eD72D26cb1038727299653a2307",
+			"user": "dongri",
+			"date": "2019-02-15"
+		},
+		{
+			"value": 0.02004437055729023,
+			"count": 188,
+			"downloads": 188,
+			"balance": 0,
+			"point": 0,
+			"package": "@sq-ui/ng-sq-common",
+			"address": "0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194",
+			"user": "samuil4",
+			"date": "2019-02-16"
+		},
+		{
+			"value": 0.0314526027361735,
+			"count": 295,
+			"downloads": 295,
+			"balance": 0,
+			"point": 0,
+			"package": "@sq-ui/ng-modal",
+			"address": "0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194",
+			"user": "samuil4",
+			"date": "2019-02-16"
+		},
+		{
+			"value": 0.017698752726117973,
+			"count": 166,
+			"downloads": 166,
+			"balance": 0,
+			"point": 0,
+			"package": "@sq-ui/ng-datatable",
+			"address": "0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194",
+			"user": "samuil4",
+			"date": "2019-02-16"
+		}
+	],
+	"tokens": [
+		{
+			"address": "0x623527a95416f2F451565976bB50e97050267e8D",
+			"value": 0.20577524925282734,
+			"uint256": "205775249252827330"
+		},
+		{
+			"address": "0x69cc2c86aeb26f52f6645a2dfdec1051dd5584c0",
+			"value": 72.0321472306787,
+			"uint256": "72032147230678704000"
+		},
+		{
+			"address": "0x4eff38306428991e24a21530491ac4096e790603",
+			"value": 1.3284758205641842,
+			"uint256": "1328475820564184300"
+		},
+		{
+			"address": "0xf6D5ba3FC89216A9c63a3a3B48b6CE9f0cfD56F8",
+			"value": 0.013009466666765298,
+			"uint256": "13009466666765298"
+		},
+		{
+			"address": "0x012fCFF42a7002E47FaeFF5A384d08673C622872",
+			"value": 0.32039209829453774,
+			"uint256": "320392098294537700"
+		},
+		{
+			"address": "0xa05338dad0a93f659ef4d82cdfa312b992c8e6e0",
+			"value": 0.07036949570931086,
+			"uint256": "70369495709310860"
+		},
+		{
+			"address": "0xb686ea4823ba3da96113c1ab727b46f408bb9b48",
+			"value": 14.746956175811134,
+			"uint256": "14746956175811133000"
+		},
+		{
+			"address": "0xfb5c0e6400a95e4191d46196073d30a289abd15c",
+			"value": 83238.78921321913,
+			"uint256": "83238789213219130000000"
+		},
+		{
+			"address": "0xff47a035a34dDD18200e3850640E58A7400D83Fc",
+			"value": 0.023136615792452474,
+			"uint256": "23136615792452476"
+		},
+		{
+			"address": "0x9bEfA9767444D5552534faA8A24B18d3347AC3F4",
+			"value": 5.301746763246997,
+			"uint256": "5301746763246996000"
+		},
+		{
+			"address": "0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194",
+			"value": 0.11248303690394253,
+			"uint256": "112483036903942530"
+		},
+		{
+			"address": "0x1B0e6a1Ef10819Fe652E12b0760971da458a51B1",
+			"value": 0.010981756209579223,
+			"uint256": "10981756209579222"
+		},
+		{
+			"address": "0x27ef834D4A530C8ba24006c88e67524A5d30eD27",
+			"value": 0.0034118077544323796,
+			"uint256": "3411807754432379.5"
+		},
+		{
+			"address": "0x75D06aEf44C47eD72D26cb1038727299653a2307",
+			"value": 0.04190126398412267,
+			"uint256": "41901263984122670"
+		}
+	]
+}
