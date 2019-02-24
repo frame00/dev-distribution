@@ -270,5 +270,11 @@ export const packages: DistributionTarget[] = [
 		address: '0x1ec4Df7e235f7309d88870b8D00F3Da2f899350d',
 		user: 'd0whc3r',
 		date: '2019-02-20'
+	},
+	{
+		package: '@sq-ui/sq-grid',
+		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
+		user: 'samuil4',
+		date: '2019-02-24'
 	}
 ]
