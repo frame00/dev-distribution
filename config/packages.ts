@@ -308,12 +308,6 @@ export const packages: DistributionTarget[] = [
 		date: '2019-02-28'
 	},
 	{
-		package: '@vue/web-component-wrapper',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
 		package: 'k-css',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
@@ -321,12 +315,6 @@ export const packages: DistributionTarget[] = [
 	},
 	{
 		package: 'vuex-local',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/eslint-config-typescript',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
 		date: '2019-02-28'
@@ -434,12 +422,6 @@ export const packages: DistributionTarget[] = [
 		date: '2019-02-28'
 	},
 	{
-		package: '@vue/ui',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
 		package: 'vue-inversify-decorator',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
@@ -500,12 +482,6 @@ export const packages: DistributionTarget[] = [
 		date: '2019-02-28'
 	},
 	{
-		package: '@vue/publish-test',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
 		package: 'safe-object-proxy',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
@@ -518,19 +494,7 @@ export const packages: DistributionTarget[] = [
 		date: '2019-02-28'
 	},
 	{
-		package: '@vue/component-compiler-utils',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
 		package: 'prettier-config-ktsn',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/server-test-utils',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
 		date: '2019-02-28'
@@ -572,31 +536,7 @@ export const packages: DistributionTarget[] = [
 		date: '2019-02-28'
 	},
 	{
-		package: '@vue/component-compiler',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
 		package: 'gulp-rollup-each',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/preload-webpack-plugin',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/cli-ui-addon-webpack',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/cli-ui',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
 		date: '2019-02-28'
@@ -627,12 +567,6 @@ export const packages: DistributionTarget[] = [
 	},
 	{
 		package: 'gulp-markuplint',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/conventional-changelog',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
 		date: '2019-02-28'
@@ -686,48 +620,6 @@ export const packages: DistributionTarget[] = [
 		date: '2019-02-28'
 	},
 	{
-		package: '@vue/babel-helper-vue-jsx-merge-props',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/babel-plugin-transform-vue-jsx',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/babel-preset-jsx',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/babel-sugar-functional-vue',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/babel-sugar-inject-h',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/babel-sugar-v-model',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/babel-sugar-v-on',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
 		package: 'vue-lazy-components-option',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
@@ -741,18 +633,6 @@ export const packages: DistributionTarget[] = [
 	},
 	{
 		package: 'vue-compat',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/cli-ui-addon-widgets',
-		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
-		user: 'ktsn',
-		date: '2019-02-28'
-	},
-	{
-		package: '@vue/cli-upgrade',
 		address: '0xb686ea4823ba3da96113c1ab727b46f408bb9b48',
 		user: 'ktsn',
 		date: '2019-02-28'
