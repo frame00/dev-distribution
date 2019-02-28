@@ -276,5 +276,491 @@ export const packages: DistributionTarget[] = [
 		address: '0x7129FD777858CDC8A27cb7627F7Cd81C60d4C194',
 		user: 'samuil4',
 		date: '2019-02-24'
+	},
+	{
+		package: 'vue-typed-mixins',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-sfc-parser',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@ktsn/ob',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-vnode-helper',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuex-toast',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/web-component-wrapper',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'k-css',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuex-local',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/eslint-config-typescript',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuex-assert',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'tslint-config-ktsn',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'eslint-config-ktsn',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'bs-compile-middleware',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'gulp-require-pug',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuetype',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'klone',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-hot-reload-loader',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-comm',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'houl',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'stylelint-config-oro',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'typed-vue-template',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuex-modal',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-custom-properties',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuex-strong-cache',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-rubberband',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuex-type-helper',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/ui',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-inversify-decorator',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'meck',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-class-component',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'truncator',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vq',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-transition-components',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'typed-vue-loader',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'capture-all',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'buni',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'selective-undo-text',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/publish-test',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'safe-object-proxy',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'babel-plugin-remove-vue-extend',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/component-compiler-utils',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'prettier-config-ktsn',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/server-test-utils',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'markdown-it-demo-renderer',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'ktsn-npm-package-example',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'calendar-set',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-svelte-adapter',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuex-mappers',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-size-provider',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/component-compiler',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'gulp-rollup-each',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/preload-webpack-plugin',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/cli-ui-addon-webpack',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/cli-ui',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-media-loader',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'nouhin',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-cli-plugin-mfc',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'nuxt-dynamic-tag-management',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'gulp-markuplint',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/conventional-changelog',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-route-generator',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-router-layout',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-auto-routing',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'eslint-config-ktsn-typescript',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'legacify-charset',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'eslint-config-ktsn-vue',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@birdseye/core',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@birdseye/vue',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/babel-helper-vue-jsx-merge-props',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/babel-plugin-transform-vue-jsx',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/babel-preset-jsx',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/babel-sugar-functional-vue',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/babel-sugar-inject-h',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/babel-sugar-v-model',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/babel-sugar-v-on',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-lazy-components-option',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'jest-config-ktsn',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vue-compat',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/cli-ui-addon-widgets',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: '@vue/cli-upgrade',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
+	},
+	{
+		package: 'vuex-smart-module',
+		address: '0xE5B815Baf9C4ca57ad4dD5117d4D18CDE67096B0',
+		user: 'ktsn',
+		date: '2019-02-28'
 	}
 ]
