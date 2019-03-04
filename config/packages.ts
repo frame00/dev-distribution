@@ -7380,5 +7380,29 @@ export const packages: DistributionTarget[] = [
 		address: '0xFB5C0e6400A95e4191D46196073D30a289abd15c',
 		user: 'sindresorhus',
 		date: '2019-03-03'
+	},
+	{
+		package: '@iktakahiro/youtube-url-parser',
+		address: '0xdC6922cf94bbc1310Fa395ded457C5b08fa91563',
+		user: 'iktakahiro',
+		date: '2019-03-04'
+	},
+	{
+		package: '@iktakahiro/markdown-it-br',
+		address: '0xdC6922cf94bbc1310Fa395ded457C5b08fa91563',
+		user: 'iktakahiro',
+		date: '2019-03-04'
+	},
+	{
+		package: '@iktakahiro/markdown-it-prismjs',
+		address: '0xdC6922cf94bbc1310Fa395ded457C5b08fa91563',
+		user: 'iktakahiro',
+		date: '2019-03-04'
+	},
+	{
+		package: '@iktakahiro/markdown-it-katex',
+		address: '0xdC6922cf94bbc1310Fa395ded457C5b08fa91563',
+		user: 'iktakahiro',
+		date: '2019-03-04'
 	}
 ]
