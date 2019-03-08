@@ -7404,5 +7404,29 @@ export const packages: DistributionTarget[] = [
 		address: '0xdC6922cf94bbc1310Fa395ded457C5b08fa91563',
 		user: 'iktakahiro',
 		date: '2019-03-04'
+	},
+	{
+		package: '@kamiazya/ngx-speech-recognition',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-03-08'
+	},
+	{
+		package: '@kamiazya/freebusy',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-03-08'
+	},
+	{
+		package: '@kamiazya/ngx-speech-synthesis',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-03-08'
+	},
+	{
+		package: 'typedoc-plugin-mermaid',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-03-08'
 	}
 ]
