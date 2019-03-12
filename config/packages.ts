@@ -7428,5 +7428,41 @@ export const packages: DistributionTarget[] = [
 		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
 		user: 'kamiazya',
 		date: '2019-03-08'
+	},
+	{
+		package: 'esri-leaflet-webmap',
+		address: '0x56e14aaA084B111207f2Fa217d1D334fE413C593',
+		user: 'ynunokawa',
+		date: '2019-03-12'
+	},
+	{
+		package: 'hubot-spatial',
+		address: '0x56e14aaA084B111207f2Fa217d1D334fE413C593',
+		user: 'ynunokawa',
+		date: '2019-03-12'
+	},
+	{
+		package: 'react-arcgis-boilerplate',
+		address: '0x56e14aaA084B111207f2Fa217d1D334fE413C593',
+		user: 'ynunokawa',
+		date: '2019-03-12'
+	},
+	{
+		package: 'react-webmap',
+		address: '0x56e14aaA084B111207f2Fa217d1D334fE413C593',
+		user: 'ynunokawa',
+		date: '2019-03-12'
+	},
+	{
+		package: 'leaflet-vectoricon',
+		address: '0x56e14aaA084B111207f2Fa217d1D334fE413C593',
+		user: 'ynunokawa',
+		date: '2019-03-12'
+	},
+	{
+		package: 'leaflet-esri-webmap',
+		address: '0x56e14aaA084B111207f2Fa217d1D334fE413C593',
+		user: 'ynunokawa',
+		date: '2019-03-12'
 	}
 ]
