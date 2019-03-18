@@ -7464,5 +7464,101 @@ export const packages: DistributionTarget[] = [
 		address: '0x56e14aaA084B111207f2Fa217d1D334fE413C593',
 		user: 'ynunokawa',
 		date: '2019-03-12'
+	},
+	{
+		package: 'atomic-generator',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'atomic-lab',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'a-template',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'spread-js',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'smartphoto',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'event-on-off',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'unitscss',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'gulp-less-to-scss',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'gulp-webloc2png',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'str-finder',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'jquerify',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'caniuse-query',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'extract-classnames',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'redux-action-handler',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: '@steelydylan/atlasjs',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
+	},
+	{
+		package: 'steelydylan',
+		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
+		user: 'steelydylan',
+		date: '2019-03-18'
 	}
 ]
