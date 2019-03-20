@@ -52,7 +52,10 @@ export const getAllDownloadsCountNPM = async (
 	end: string,
 	packages: Packages
 ) =>
-	Promise.all(packages.map(async pkg => getDownloadsCountNPM(start, end, pkg)))
+	ThrottleAll(
+		packages.map(pkg => async () => getDownloadsCountNPM(start, end, pkg)),
+		{ maxInProgress: 20 }
+	)
 
 export const getBalanceDev = async (
 	address: string
@@ -112,6 +115,7 @@ export const mergePackageData = (
 	npms.map(npm => {
 		const pkg = packages.find(pk => pk.package === npm.package)
 		if (!pkg) {
+			console.log(npm)
 			throw new Error(`Package not found: ${npm.package}`)
 		}
 		const data = points.find(p => p.package === pkg.package)
