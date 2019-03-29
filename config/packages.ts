@@ -7566,5 +7566,191 @@ export const packages: DistributionTarget[] = [
 		address: '0x58f5aE124c5150B13ea566cd3BDd13De7aFe7cC2',
 		user: 'igtm',
 		date: '2019-03-29'
+	},
+	{
+		package: 'openapi-circleci',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'passport-nextengine',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'roulette-cli',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'in-progress',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'duq',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'nicon',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'openapi-exec',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'passport-openapi',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'ext-chatwork-events',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'seqpar',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'iddfs',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'wasm-instantiate-streaming',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'zapshot',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'zapshot-cli',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'hothouse',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@hothouse/types',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@hothouse/monorepo-yarn-workspaces',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@hothouse/monorepo-lerna',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@hothouse/client-npm',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@hothouse/client-yarn',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'upbin',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'reinbox',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'reinbox-redux',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'otesuki',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'coverage-diff-back',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: 'git-upstream',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@hygiene/core',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@hygiene/plugin-github-url',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@hygiene/cli',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@lekoleko/gatsby-remark-discoverable-oembed',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
+	},
+	{
+		package: '@github-trends-unofficial/schema',
+		address: '0x04b40f2F607a82F18aD34cBb66176dD8F8D76825',
+		user: 'lekoleko',
+		date: '2019-03-29'
 	}
 ]
