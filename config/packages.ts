@@ -7560,5 +7560,11 @@ export const packages: DistributionTarget[] = [
 		address: '0x813870764CF0d2aFd6FB63E9F109Ea676166704f',
 		user: 'steelydylan',
 		date: '2019-03-18'
+	},
+	{
+		package: 'alb-log-parser',
+		address: '0x58f5aE124c5150B13ea566cd3BDd13De7aFe7cC2',
+		user: 'igtm',
+		date: '2019-03-29'
 	}
 ]
