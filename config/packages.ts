@@ -8664,5 +8664,323 @@ export const packages: DistributionTarget[] = [
 		address: '0x250Debd936CceA0Afc2A28793b231F862a65a7Ef',
 		user: 'akameco',
 		date: '2019-04-01'
+	},
+	{
+		package: '@my-dish/template-cli',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@my-dish/template-common',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@my-dish/template-dish',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@my-dish/template-plain',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@my-dish/template-react-library',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@my-dish/template-react-redux-application',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@my-dish/packer',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@my-dish/template-react-application',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@my-dish/template-electron',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@nicohaco/electron-window-manager',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@demobook/cli',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@demobook/server',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'kaomozi',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'nico-value',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'cli-boost',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'file-cloner',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'huben',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'bazero',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'njo',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'my-dish',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'babel-preset-list',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'util.types',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'react-console-logger',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'about.hiroppy',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'placehold-cli',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'fusuma',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'euphonium',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'stylelint-config-sky',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'eslint-config-sky',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'cosmetics',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'convert-keys',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'babel-plugin-styled-components-autoprefixer',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'honyaku',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'scuba',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'ts-install',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'mu-law',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'check-global-variables',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'preferred-search',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'babel-init',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'npm-package-status',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'create-react-template',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'node-comitter',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'node-committer',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'hiroppy',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'cav',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'nico-api',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'measurer',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'devchat',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'express-routes-list',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'react-scalable',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'keybinding-decorator',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: 'sweetpack',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
+	},
+	{
+		package: '@hiroppy/bespoke-fx',
+		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
+		user: 'hiroppy',
+		date: '2019-04-06'
 	}
 ]
