@@ -23,9 +23,10 @@ export const get = async <T>(url: string) =>
 			},
 			(err, res) => {
 				if (err) {
-					return reject(err)
+					reject(err)
+					return
 				}
-				resolve(res.body)
+				resolve(res.body as T)
 			}
 		)
 	})

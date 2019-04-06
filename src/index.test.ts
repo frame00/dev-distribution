@@ -141,7 +141,7 @@ test('Value of "details[i].downloads" is the total number of package downloads f
 			const { downloads, package: pkg } = detail
 			const res = await getDownloadsCountNPM(MOCK_START, MOCK_END, pkg)
 			c += 1
-			return t.is(downloads, res.downloads)
+			t.is(downloads, res.downloads)
 		})
 	)
 	t.is(c, results.details.length)
@@ -154,7 +154,7 @@ test('"details[i].balance" is the current holding tokens', async t => {
 			const { balance, address } = detail
 			const tokens = await getBalanceDev(address)
 			c += 1
-			return t.is(balance, tokens.balance)
+			t.is(balance, tokens.balance)
 		})
 	)
 	t.is(c, results.details.length)

@@ -3,6 +3,7 @@
 	"extends": ["tslint-xo", "tslint-config-prettier"],
 	"rulesDirectory": ["tslint-plugin-prettier"],
 	"rules": {
-		"prettier": true
+		"prettier": true,
+		"typedef": [true, "call-signature", "parameter", "property-declaration"]
 	}
 }
