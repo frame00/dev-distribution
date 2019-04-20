@@ -32,6 +32,12 @@ const MOCK_PACKAGES = [
 		address: '0x4e83362442b8d1bec281594cea3050c8eb01311c',
 		user: 'user3',
 		date: '2018-04-01'
+	},
+	{
+		package: 'not_exist_package',
+		address: '0x4e83362442b8d1bec281594cea3050c8eb01311c',
+		user: 'user4',
+		date: '2018-04-01'
 	}
 ]
 
@@ -196,4 +202,16 @@ test('Value of "tokens[i].uint256" is "value" converted to uint256.', t => {
 		const { uint256, value } = iterator
 		t.is(Number(uint256), value * Number(`1e+${contract.decimals}`))
 	}
+})
+
+test('When the download count of the npm package cannot be fetched, the point and the downloads is regarded as 0.', t => {
+	const notExistPkg = results.details.find(
+		d => d.package === 'not_exist_package'
+	)
+	if (!notExistPkg) {
+		t.fail()
+		return
+	}
+	t.is(notExistPkg.point, 0)
+	t.is(notExistPkg.downloads, 0)
 })

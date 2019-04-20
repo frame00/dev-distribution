@@ -3,6 +3,7 @@ export interface NPMCountResponseBody {
 	start: string
 	end: string
 	package: string
+	error?: string
 }
 
 export interface EtherscanResponseBody {

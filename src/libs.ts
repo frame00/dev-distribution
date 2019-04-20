@@ -46,6 +46,16 @@ export const getDownloadsCountNPM = async (
 ) =>
 	get<NPMCountResponseBody>(
 		`https://api.npmjs.org/downloads/point/${start}:${end}/${packageName}`
+	).then(res =>
+		res.package
+			? res
+			: {
+					...res,
+					downloads: 0,
+					start,
+					end,
+					package: packageName
+			  }
 	)
 
 export const getAllDownloadsCountNPM = async (
@@ -122,6 +132,14 @@ export const mergePackageData = (
 		const data = points.find(p => p.package === pkg.package)
 		if (!data) {
 			throw new Error(`Point not found: ${npm.package}`)
+		}
+		if (npm.error) {
+			// When the download count of the npm package cannot be fetched, the point is regarded as 0.
+			return {
+				...npm,
+				...data,
+				point: 0
+			}
 		}
 		return { ...npm, ...data }
 	})
