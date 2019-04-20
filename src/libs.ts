@@ -176,7 +176,12 @@ export const createDistributions = (
 	totalDistribution: number
 ) =>
 	targets.map(item => {
-		const { downloads, balance, point } = findPackageDistoributionDetails(
+		const {
+			downloads,
+			balance,
+			point,
+			error
+		} = findPackageDistoributionDetails(
 			item.package,
 			allData
 		) as PackagesAllData
@@ -186,7 +191,8 @@ export const createDistributions = (
 			count,
 			downloads,
 			balance,
-			point
+			point,
+			error
 		}
 		return { ...val, ...item }
 	})

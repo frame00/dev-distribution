@@ -40,6 +40,7 @@ export interface DistributionRate extends DistributionTarget {
 	count: number
 	point: number
 	downloads: number
+	error?: string
 }
 
 export interface DistributionTokens {
