@@ -8982,5 +8982,11 @@ export const packages: DistributionTarget[] = [
 		address: '0x8b827841cCAFd79cd046E20A6bBfAE575332d995',
 		user: 'hiroppy',
 		date: '2019-04-06'
+	},
+	{
+		package: 'dtsgenerator',
+		address: '0x4EF0B527A6DE9c9B67f7B46c5e2CCD38c02b2498',
+		user: 'horiuchi',
+		date: '2019-05-07'
 	}
 ]
