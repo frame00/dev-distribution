@@ -8988,5 +8988,41 @@ export const packages: DistributionTarget[] = [
 		address: '0x4EF0B527A6DE9c9B67f7B46c5e2CCD38c02b2498',
 		user: 'horiuchi',
 		date: '2019-05-07'
+	},
+	{
+		package: 'generator-harp-gh-pages',
+		address: '0x1cB707C360a175F3c94cB68FdA8b0c2fc82222e4',
+		user: 'hmsk',
+		date: '2019-05-14'
+	},
+	{
+		package: 'symlink-webpack-plugin',
+		address: '0x1cB707C360a175F3c94cB68FdA8b0c2fc82222e4',
+		user: 'hmsk',
+		date: '2019-05-14'
+	},
+	{
+		package: 'hubot-esa',
+		address: '0x1cB707C360a175F3c94cB68FdA8b0c2fc82222e4',
+		user: 'hmsk',
+		date: '2019-05-14'
+	},
+	{
+		package: 'frontmatter-markdown-loader',
+		address: '0x1cB707C360a175F3c94cB68FdA8b0c2fc82222e4',
+		user: 'hmsk',
+		date: '2019-05-14'
+	},
+	{
+		package: 'nuxt-ts',
+		address: '0x1cB707C360a175F3c94cB68FdA8b0c2fc82222e4',
+		user: 'hmsk',
+		date: '2019-05-14'
+	},
+	{
+		package: 'jest-matcher-vue-test-utils',
+		address: '0x1cB707C360a175F3c94cB68FdA8b0c2fc82222e4',
+		user: 'hmsk',
+		date: '2019-05-14'
 	}
 ]
