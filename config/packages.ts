@@ -9024,5 +9024,17 @@ export const packages: DistributionTarget[] = [
 		address: '0x1cB707C360a175F3c94cB68FdA8b0c2fc82222e4',
 		user: 'hmsk',
 		date: '2019-05-14'
+	},
+	{
+		package: '@kamiazya/dot-language-perser',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-05-19'
+	},
+	{
+		package: 'ngx-face-api-js',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-05-19'
 	}
 ]
