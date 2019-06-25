@@ -9036,5 +9036,137 @@ export const packages: DistributionTarget[] = [
 		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
 		user: 'kamiazya',
 		date: '2019-05-19'
+	},
+	{
+		package: 'wspackager',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@iotame/builtins',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@iotame/api',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'qube-scrambler',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'pcaas',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'guacamole-common-js',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'iotame',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@dieschittigs/generator-contao',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@dieschittigs/contao-dev-server',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@iotame/interface',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'padarom-guacamole-common-js',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'wcf-utils',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'wcfutils',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@iotame/web',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@dieschittigs/eslint-config',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@dieschittigs/c3t4',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'remote-sync-ds',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@blurple/extension',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@blurple/example',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@blurple/runtime',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: '@origamidl/webgl',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
+	},
+	{
+		package: 'vuepress-plugin-code-switcher',
+		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
+		user: 'padarom',
+		date: '2019-06-24'
 	}
 ]
