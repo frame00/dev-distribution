@@ -9168,5 +9168,35 @@ export const packages: DistributionTarget[] = [
 		address: '0xf7a525Cfb6edE606ff389E9b10c4688356399286',
 		user: 'padarom',
 		date: '2019-06-24'
+	},
+	{
+		package: 'get-screen-id',
+		address: '0x63719a64d0a8D2587fE67724935a37E06F96c80a',
+		user: 'monaka',
+		date: '2019-06-30'
+	},
+	{
+		package: 'rtc-multi-connection',
+		address: '0x63719a64d0a8D2587fE67724935a37E06F96c80a',
+		user: 'monaka',
+		date: '2019-06-30'
+	},
+	{
+		package: '@pizzafactory/sprotty-theia',
+		address: '0x63719a64d0a8D2587fE67724935a37E06F96c80a',
+		user: 'monaka',
+		date: '2019-06-30'
+	},
+	{
+		package: '@opentestmodeling/vstep-ngt-core-dsl',
+		address: '0x63719a64d0a8D2587fE67724935a37E06F96c80a',
+		user: 'monaka',
+		date: '2019-06-30'
+	},
+	{
+		package: '@opentestmodeling/vstep-ngt-core-sprotty',
+		address: '0x63719a64d0a8D2587fE67724935a37E06F96c80a',
+		user: 'monaka',
+		date: '2019-06-30'
 	}
 ]
