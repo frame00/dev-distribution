@@ -9198,5 +9198,119 @@ export const packages: DistributionTarget[] = [
 		address: '0x63719a64d0a8D2587fE67724935a37E06F96c80a',
 		user: 'monaka',
 		date: '2019-06-30'
+	},
+	{
+		package: 'counterparty',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: 'counterparty-promise',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: 'deterministic-coupon-code',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: 'ng2-trezor-connect',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@cryptcoin-junkey/sails-auth',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: 'monacore-node',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@cryptcoin-junkey/coininfo',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: 'insight-api-monacoin',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: 'insight-ui-monacoin',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/bitcore-lib',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/bitcore-message',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/sails-mongo',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/connect-azuretables',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/hubot-twitter-userstream',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: 'hubot-twitter-userstream-monacoex',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/coininfo',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/ngx-electrum-client',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/pg',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
+	},
+	{
+		package: '@monaco-ex/pg-promise',
+		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
+		user: 'cryptcoin-junkey',
+		date: '2019-07-01'
 	}
 ]
