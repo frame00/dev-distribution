@@ -9312,5 +9312,11 @@ export const packages: DistributionTarget[] = [
 		address: '0xAe4A20c905f0a837D7E7af1BB48F8F812A4FE7CA',
 		user: 'cryptcoin-junkey',
 		date: '2019-07-01'
+	},
+	{
+		package: 'sknife',
+		address: '0x7a7858BDB6D608d12a534D34866D45Dae6d7B4b8',
+		user: 'petitcoeur',
+		date: '2019-08-05'
 	}
 ]
