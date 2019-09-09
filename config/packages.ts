@@ -9318,5 +9318,11 @@ export const packages: DistributionTarget[] = [
 		address: '0x7a7858BDB6D608d12a534D34866D45Dae6d7B4b8',
 		user: 'petitcoeur',
 		date: '2019-08-05'
+	},
+	{
+		package: 'svelte-mock',
+		address: '0x29324860372a52303D6b7ECB9ab8A53EF223FCb0',
+		user: 'kobejean',
+		date: '2019-09-09'
 	}
 ]
