@@ -9324,5 +9324,11 @@ export const packages: DistributionTarget[] = [
 		address: '0x29324860372a52303D6b7ECB9ab8A53EF223FCb0',
 		user: 'kobejean',
 		date: '2019-09-09'
+	},
+	{
+		package: 'sao-clasp',
+		address: '0x50f9A5E0F4cC704206Bc1FBA48d84Fef75378BD7',
+		user: 'takanakahiko',
+		date: '2019-09-10'
 	}
 ]
