@@ -9,7 +9,7 @@ before_install:
 before_deploy: npm run build
 deploy:
   - provider: script
-    script: now --public --token $NOW_TOKEN && now alias --token $NOW_TOKEN
+    script: now --public --token $NOW_TOKEN && now --prod --token $NOW_TOKEN
     skip_cleanup: true
     on:
       branch: master
