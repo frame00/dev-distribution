@@ -9330,5 +9330,71 @@ export const packages: DistributionTarget[] = [
 		address: '0x50f9A5E0F4cC704206Bc1FBA48d84Fef75378BD7',
 		user: 'takanakahiko',
 		date: '2019-09-10'
+	},
+	{
+		package: 'intensityjs',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: 'unpkg-json',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: 'dpndon',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: 'dpnopn',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: 'dpndon-core',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: 'dpndon-cli',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: '@payper/yamaori',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: '@payper/taniori-client',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: '@payper/taniori-mock',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: '@payper/yamaori-client',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
+	},
+	{
+		package: '@payper/yamaori-mock',
+		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
+		user: 'k4h4shi',
+		date: '2019-10-01'
 	}
 ]
