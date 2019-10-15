@@ -9396,5 +9396,11 @@ export const packages: DistributionTarget[] = [
 		address: '0x747AE3b62C7681D4abeA3DC3b4EC490934839249',
 		user: 'k4h4shi',
 		date: '2019-10-01'
+	},
+	{
+		package: 'typedoc-plugin-nomnoml',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-10-11'
 	}
 ]
