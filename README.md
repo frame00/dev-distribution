@@ -1,4 +1,8 @@
-Calculate distribution rate of [Dev]('https://devtoken.rocks/')
+This repository is logic that calculating rewards for [Dev](https://devtoken.rocks) beta.
+
+A new protocol called [Dev Protocol](https://github.com/dev-protocol/protocol) is under development. In the deployed, this repository is no longer needed.
+
+---
 
 [![Build Status](https://travis-ci.org/frame00/dev-distribution.svg?branch=master)](https://travis-ci.org/frame00/dev-distribution)
 
