@@ -9402,5 +9402,17 @@ export const packages: DistributionTarget[] = [
 		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
 		user: 'kamiazya',
 		date: '2019-10-11'
+	},
+	{
+		package: 'ts-graphviz',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-11-11'
+	},
+	{
+		package: 'jest-graphviz',
+		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
+		user: 'kamiazya',
+		date: '2019-11-11'
 	}
 ]
