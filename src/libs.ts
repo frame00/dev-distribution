@@ -80,9 +80,12 @@ export const getBalanceDev = async (
 }
 
 export const getAllBalanceDev = async (addresses: string[]) =>
-	ThrottleAll(addresses.map(address => async () => getBalanceDev(address)), {
-		maxInProgress: 5
-	})
+	ThrottleAll(
+		addresses.map(address => async () => getBalanceDev(address)),
+		{
+			maxInProgress: 5
+		}
+	)
 
 export const calcBalancePoint = (
 	balance: number,
