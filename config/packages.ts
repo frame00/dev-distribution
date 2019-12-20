@@ -9414,5 +9414,11 @@ export const packages: DistributionTarget[] = [
 		address: '0x5ac7F8e98d61aF538986e8a93Cb2B3698b947547',
 		user: 'kamiazya',
 		date: '2019-11-11'
+	},
+	{
+		package: 'ecstar',
+		address: '0xaE66E0C85694fA93F953b39a2B015def3992c22d',
+		user: 'mouse_484',
+		date: '2019-12-18'
 	}
 ]
